@@ -1,0 +1,630 @@
+ /* 全局样式 */
+ :root {
+     --primary-color: #2563eb;
+     --warning-color: #C53030;
+     --success-color: #059669;
+     --light-bg: #f8fafc;
+     --dark-text: #1e293b;
+     --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ body {
+     /* background-color: #f8f9fa; */
+     background: #fff;
+     color: #333;
+     line-height: 1.6;
+     font-size: 1.16rem;
+ }
+
+ .container {
+     max-width: 1280px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ ol,
+ ul {
+     padding-left: 20px;
+ }
+
+ li {
+     margin-bottom: 10px;
+ }
+
+ strong {
+     /* color: #4285f4; */
+     color: #000;
+ }
+
+ img {
+     display: block;
+     max-width: 100%;
+     margin-bottom: 10px;
+ }
+
+ h2 {
+     margin: 30px 0;
+     font-size: 2rem;
+     color: #2c3e50;
+     padding-bottom: 8px;
+     border-bottom: 2px solid #eaecef;
+ }
+
+ h3 {
+     margin: 20px 0;
+ }
+
+ p {
+     margin-bottom: 12px;
+ }
+
+ a {
+     /* color: #000; */
+     color: #4285f4;
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+ /* 头部样式 */
+ header {
+     background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%);
+     color: white;
+     padding: 60px 20px;
+     text-align: center;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     margin-bottom: 40px;
+ }
+
+ header h1 {
+     font-size: 2.6rem;
+     margin-bottom: 15px;
+ }
+
+ header p {
+     font-size: 1.3rem;
+     max-width: 800px;
+     margin: 0 auto;
+     opacity: 0.9;
+ }
+
+ /* 文章排版 */
+ .article-intro {
+     margin-bottom: 30px;
+     padding: 15px;
+     background-color: #f8f9fa;
+     border-left: 4px solid #4285f4;
+ }
+
+ .article-top h2 {
+     color: #2c3e50;
+     border-bottom: 1px solid #eee;
+     padding-bottom: 10px;
+     margin-top: 30px;
+ }
+
+ .article-top {
+     line-height: 1.6;
+     /* padding: 20px 20px 0; */
+ }
+
+ /* 商家推荐卡片 */
+ .provider-card {
+     margin-bottom: 40px;
+     transition: transform 0.3s ease;
+ }
+
+ /* 套餐表格 */
+
+ .plans-section h3 {
+     margin: 20px 0;
+     color: #333;
+     font-size: 1.3rem;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #eee;
+ }
+
+ .plans-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-bottom: 20px;
+ }
+
+ .plans-table th {
+     background: #2a5298;
+     padding: 12px 15px;
+     text-align: left;
+     font-weight: 600;
+     color: #fff;
+ }
+
+ .plans-table td {
+     padding: 12px 15px;
+     border-bottom: 1px solid #eee;
+ }
+
+ .plans-table tr:nth-child(even) {
+     background-color: #f9f9f9;
+ }
+
+ .plans-table tr:hover {
+     background-color: #f1f5fd;
+ }
+
+ .plan-name {
+     font-weight: 600;
+     color: #333;
+ }
+
+ .plan-price {
+     font-weight: bold;
+     color: #e74c3c;
+ }
+
+ .plan-features {
+     font-size: 0.9rem;
+     color: #666;
+ }
+
+ .recommended-badge {
+     display: inline-block;
+     background: #e74c3c;
+     color: white;
+     padding: 2px 8px;
+     border-radius: 4px;
+     font-size: 0.8rem;
+     margin-left: 8px;
+     font-weight: normal;
+ }
+
+ /* 商家优势 */
+ .advantages-section {
+     background: #f8f9fa;
+     border-top: 1px solid #eee;
+     padding: 20px;
+ }
+
+ .advantages-section h3 {
+     margin-bottom: 15px;
+     color: #333;
+     font-size: 1.3rem;
+ }
+
+ .advantages-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 20px;
+ }
+
+ .advantage-item {
+     display: flex;
+     align-items: flex-start;
+ }
+
+ .advantage-icon {
+     color: #4776E6;
+     font-size: 1.2rem;
+     margin-right: 10px;
+     margin-top: 3px;
+ }
+
+ .advantage-text h4 {
+     margin-bottom: 5px;
+     color: #333;
+ }
+
+ .advantage-text p {
+     color: #666;
+     font-size: 0.9rem;
+ }
+
+ /* 数据中心 */
+ .datacenters-section {
+     margin-top: 20px;
+ }
+
+ /* 行动号召 */
+ .cta-section {}
+
+ .cta-button {
+     display: inline-block;
+     background-color: #1e40af;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 6px;
+     text-decoration: none;
+     font-weight: 500;
+     margin-top: 10px;
+     transition: background-color 0.2s;
+ }
+
+ .cta-button:hover {
+     background-color: #1e3a8a;
+     transform: translateY(-2px);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ }
+
+ .note {
+     background-color: #eff6ff;
+     border-left: 4px solid #3b82f6;
+     padding: 15px;
+     margin: 1.5rem 0;
+     border-radius: 0 6px 6px 0;
+ }
+
+ /* 页脚 */
+ footer {
+     text-align: center;
+     padding: 30px 0;
+     margin-top: 50px;
+     color: #666;
+     font-size: 0.9rem;
+     border-top: 1px solid #eee;
+ }
+
+ /* 常见问题 */
+ .faq-section {
+     margin: 40px 0;
+     padding: 20px;
+     background-color: #f8f9fa;
+     border-radius: 8px;
+     border: 1px solid #e0e0e0;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+     transition: box-shadow .3s ease;
+ }
+
+ .faq-section h2 {
+     color: #2c3e50;
+     text-align: center;
+     margin-bottom: 30px;
+     padding-bottom: 15px;
+     border-bottom: 1px dashed #ddd;
+ }
+
+ .faq-item {
+     margin-bottom: 25px;
+     border: 1px solid #e1e4e8;
+     border-radius: 6px;
+     overflow: hidden;
+ }
+
+ .faq-question {
+     padding: 15px 20px;
+     background-color: #f8f9fa;
+     color: #000;
+     font-weight: bold;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+ }
+
+ .faq-answer {
+     padding: 20px;
+     background-color: white;
+     border-top: 1px solid #e1e4e8;
+ }
+
+ .faq-icon {
+     display: inline-block;
+     width: 24px;
+     height: 24px;
+     line-height: 24px;
+     text-align: center;
+     background-color: rgba(255, 255, 255, 0.2);
+     border-radius: 50%;
+     margin-right: 10px;
+     font-weight: bold;
+ }
+
+ .faq-answer .faq-icon {
+     background-color: #f1f1f1;
+     color: #4285f4;
+ }
+
+ .faq-answer ul,
+ .faq-answer ol {
+     padding-left: 20px;
+     margin-top: 10px;
+ }
+
+ .faq-answer li {
+     margin-bottom: 8px;
+ }
+
+ code {
+     background-color: #f3f4f6;
+     padding: 2px 5px;
+     border-radius: 3px;
+     font-family: monospace;
+     font-size: 0.9em;
+ }
+
+
+ .warning {
+     background-color: #fff4f4;
+     border-left: 4px solid #ff6b6b;
+     padding: 15px 20px;
+     margin: 20px 0;
+ }
+
+ .tip {
+     background-color: #f0f9ff;
+     border-left: 4px solid #4dabf7;
+     padding: 15px 20px;
+     margin: 20px 0;
+ }
+
+ .tip p {
+     margin-bottom: 0;
+ }
+
+ .checklist {
+     list-style-type: none;
+     margin: 20px 0;
+ }
+
+ .checklist li {
+     margin-bottom: 12px;
+     position: relative;
+ }
+
+ .warning-box {
+     background: #fff4f4;
+     border-left: 4px solid #e74c3c;
+     padding: 1.5rem;
+     margin: 2rem 0;
+     border-radius: 0 4px 4px 0;
+ }
+
+ .warning-box h4 {
+     color: #e74c3c;
+     margin-bottom: 0.8rem;
+ }
+
+ /* .bken h3 {
+     color: #3a5169;
+     margin: 2rem 0 1rem;
+ } */
+
+ /* 表格 */
+ .provider-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin: 2rem 0;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+     border-radius: 8px;
+     font-size: 1.05rem;
+ }
+
+ .provider-table th,
+ .provider-table td {
+     padding: 8px 16px;
+     text-align: left;
+     border-bottom: 1px solid #eaeaea;
+ }
+
+ .provider-table th {
+     background-color: #f0f4f8;
+     font-weight: 600;
+     color: #2c3e50;
+ }
+
+ .provider-table tr:last-child td {
+     border-bottom: none;
+ }
+
+ .price-tag {
+     color: #27ae60;
+     /* font-weight: 600; */
+ }
+
+ .rating a {
+     font-weight: 600;
+     color: #4285f4;
+ }
+
+ .vps-table table {
+     width: 100%;
+     border-collapse: collapse;
+     font-size: 1rem;
+ }
+
+ .vps-table thead th {
+     background-color: #f0f4f8;
+     font-weight: 600;
+     color: #000;
+     padding: 8px 16px;
+     text-align: left;
+ }
+
+ .vps-table tbody td {
+     padding: 8px 16px;
+     color: #000;
+     border-bottom: 1px solid #e2e8f0;
+ }
+
+ .vps-table tr:nth-child(even) {
+     background-color: #f8fafc;
+ }
+
+ .vps-table tbody tr:hover td {
+     background-color: #f1f5f9;
+ }
+
+ /* 必坑 */
+ .warning-banner i {
+     color: var(--warning-color);
+     font-size: 24px;
+     margin-right: 15px;
+ }
+
+ .cards-container {
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     margin: 40px 0;
+ }
+
+ .card {
+     background: white;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: var(--card-shadow);
+     transition: transform 0.3s ease;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .card:hover {
+     transform: translateY(-5px);
+ }
+
+ .card-content {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .card-header {
+     padding: 25px;
+     /* color: white; */
+     display: flex;
+     align-items: center;
+     min-width: 220px;
+     justify-content: center;
+ }
+
+ .card-header-content {
+     text-align: center;
+ }
+
+ .card-header i {
+     font-size: 36px;
+     margin-bottom: 15px;
+ }
+
+ .card-header h3 {
+     font-size: 1.6rem;
+ }
+
+ .card-body {
+     padding: 25px;
+     flex-grow: 1;
+ }
+
+ .card-title {
+     font-size: 1.5rem;
+     margin-bottom: 15px;
+ }
+
+ .price-trap .card-header {
+    color: var(--warning-color);
+ }
+
+ .network-test .card-header {
+     color: var(--primary-color);
+ }
+
+ .refund-policy .card-header {
+     color: var(--success-color);
+ }
+
+ .hidden-costs .card-header {
+    color: #7c3aed;
+ }
+
+ .checklist {
+     margin: 40px 0;
+     background: white;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: var(--card-shadow);
+ }
+
+ .checklist h2 {
+     margin-bottom: 20px;
+     color: var(--primary-color);
+     text-align: center;
+ }
+
+ .checklist-item {
+     display: flex;
+     align-items: flex-start;
+     margin-bottom: 15px;
+ }
+
+ .checklist-item i {
+     color: var(--success-color);
+     margin-right: 15px;
+     font-size: 20px;
+     margin-top: 3px;
+ }
+
+ /* 响应式设计 */
+ @media (max-width: 768px) {
+     .card-content {
+         flex-direction: column;
+     }
+
+     .card-header {
+         min-width: 100%;
+         padding: 15px;
+     }
+
+     .card-header i {
+         font-size: 28px;
+         margin-bottom: 10px;
+     }
+
+     .card-header h3 {
+         font-size: 1.4rem;
+     }
+
+     .container {
+         max-width: 90%;
+         text-align: justify;
+     }
+
+     header {
+         padding: 40px 20px;
+     }
+
+     header h1 {
+         font-size: 2rem;
+     }
+
+     .provider-header {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .provider-logo {
+         margin-right: 0;
+         margin-bottom: 15px;
+     }
+
+     .provider-meta {
+         justify-content: center;
+     }
+
+     .plans-table {
+         display: block;
+         overflow-x: auto;
+     }
+
+     .scenario-card,
+     .tip {
+         width: 100%;
+     }
+
+     .provider-table {
+         display: block;
+         overflow-x: auto;
+     }
+
+ }
