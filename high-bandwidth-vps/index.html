@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大带宽VPS推荐2026：1Gbps/万兆与按流量计费怎么选</title>
+    <meta name="description" content="讲清带宽与流量的区别、独享带宽与共享峰值的话术识别、按流量计费的成本测算，并推荐真正跑得满的大带宽机型。">
+    <meta name="keywords" content="大带宽vps,高带宽vps,vps服务器1000m,按流量计费vps,万兆vps,大带宽便宜vps">
+    <link rel="canonical" href="https://vpschoice.github.io/high-bandwidth-vps/">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="author" content="VPSChoice">
+    <meta name="theme-color" content="#1a2980">
+
+    <!-- Open Graph / 社交分享 -->
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="VPSChoice">
+    <meta property="og:title" content="大带宽VPS推荐2026：1Gbps/万兆与按流量计费怎么选">
+    <meta property="og:description" content="讲清带宽与流量的区别、独享带宽与共享峰值的话术识别、按流量计费的成本测算，并推荐真正跑得满的大带宽机型。">
+    <meta property="og:url" content="https://vpschoice.github.io/high-bandwidth-vps/">
+    <meta property="og:image" content="https://vpschoice.github.io/static/ivps.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="大带宽VPS推荐2026：1Gbps/万兆与按流量计费怎么选">
+    <meta name="twitter:description" content="讲清带宽与流量的区别、独享带宽与共享峰值的话术识别、按流量计费的成本测算，并推荐真正跑得满的大带宽机型。">
+    <meta name="twitter:image" content="https://vpschoice.github.io/static/ivps.png">
+
+    <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/main.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <div class="site-bar">
+        <div class="container site-bar-inner">
+            <a class="site-logo" href="../">VPSChoice<span>VPS 选购指南</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+                aria-label="展开导航">菜单</button>
+            <nav class="site-nav" id="site-nav" aria-label="主导航">
+                <a href="../">梯子VPS</a>
+                <a href="../cheap-vps/">便宜VPS</a>
+                <a href="../high-bandwidth-vps/" class="is-current" aria-current="page">大带宽VPS</a>
+            </nav>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>大带宽VPS推荐：1Gbps、万兆与按流量计费到底怎么选</h1>
+            <p>标称 1Gbps 不等于能跑满 1Gbps，先看懂计费方式再下单。</p>
+        </div>
+    </header>
+
+    <div class="container layout">
+        <main class="main-col" id="main">
+            <nav class="breadcrumb" aria-label="面包屑"><a href="../">首页</a><i>›</i><span aria-current="page">大带宽VPS推荐</span></nav>
+
+            <div class="article-top">
+    <div class="article-intro">
+        <strong>标称 1Gbps 的机器，为什么实际只跑得到 30Mbps？</strong>
+        因为「带宽」这个词在 VPS 商家手里至少有四种含义：独享带宽、共享带宽、峰值带宽、上传限速。
+        这篇讲清楚它们的区别，给出<strong>各家每 TB 流量的真实单价对比（差距高达 200 倍）</strong>，
+        以及一个很多人没意识到的事实：<strong>线路最好的机器，带宽往往最小。</strong>
+    </div>
+    <p>
+        大带宽是个容易买错的需求。有人花 ¥188/月 买了「香港三网优化」，结果发现带宽只有 50Mbps；
+        有人年付 $39.99 买了标着 1Gbps 的机器，实测确实能跑满，但晚上八点连网页都打不开。
+        这两种情况都不是商家骗人——只是<strong>带宽、流量、线路质量是三个独立的维度</strong>，
+        买之前没分清楚，就一定会有一个维度让你失望。
+    </p>
+</div>
+
+<section>
+    <h2 id="quick-answer">先给结论</h2>
+    <div class="pick-grid">
+        <div class="pick">
+            <span class="pick-label">带宽天花板最高</span>
+            <p class="pick-name"><a href="https://www.dmit.io/aff.php?aff=24731" target="_blank" rel="noreferrer noopener nofollow sponsored">DMIT</a></p>
+            <p class="pick-why">洛杉矶 STARTER 给到 <strong>10Gbps</strong> + 3000GB，$29.90/月。想跑满速度这是上限最高的一档。</p>
+        </div>
+        <div class="pick">
+            <span class="pick-label">流量单价最低</span>
+            <p class="pick-name"><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">RackNerd</a></p>
+            <p class="pick-why">1Gbps + 8TB/月，年付 $39.99，折合每 TB 约 3 元。要的是「量大管饱」就选它。</p>
+        </div>
+        <div class="pick">
+            <span class="pick-label">大带宽 + 优质线路 + 不限流量</span>
+            <p class="pick-name"><a href="https://akile.ai/register?aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708" target="_blank" rel="noreferrer noopener nofollow sponsored">AkileCloud</a></p>
+            <p class="pick-why">¥29.99/月 给 1000M + 2500GB 香港节点，是低价位里少见的大带宽与线路兼顾。</p>
+            <p class="pick-why">HKSM-UNLIMITED 无限流量 + 500M，¥187.50/月。长期高负载、不想算流量账的选择。</p>
+        </div>
+    </div>
+    <div class="note">
+        <p>
+            <strong>买之前先回答一个问题：你要的是「峰值快」还是「总量大」？</strong>
+            想下载时跑满速度 → 看带宽数字；想长期挂着传很多数据 → 看月流量和每 TB 单价。
+            这两个需求对应完全不同的机器。
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 id="basics">带宽、流量、上传速度：三个不同的东西</h2>
+    <p>先把概念钉死，后面的话术才看得懂：</p>
+    <div class="vps-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>指标</th>
+                    <th>单位</th>
+                    <th>决定什么</th>
+                    <th>类比</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>带宽</strong></td>
+                    <td>Mbps / Gbps</td>
+                    <td>瞬时最快能跑多少，即「速度上限」</td>
+                    <td>水管的<strong>粗细</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>流量</strong></td>
+                    <td>GB / TB 每月</td>
+                    <td>一个月总共能传多少数据</td>
+                    <td>每月的<strong>用水配额</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>上传速度</strong></td>
+                    <td>Mbps</td>
+                    <td>从 VPS 发出数据的速度，常被单独限制</td>
+                    <td>水管的<strong>出水口</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        换算关系记一个就够：<strong>1 Gbps ≈ 125 MB/s，100 Mbps ≈ 12.5 MB/s</strong>（除以 8）。
+        商家标带宽用 bit，你在下载器里看到的速度是 Byte，差 8 倍，这是最常见的误会来源。
+    </p>
+    <div class="warning">
+        <p>
+            <strong>上传速度是最容易被忽略的一项，而对搭梯子来说它恰恰最重要。</strong>
+            你从 VPS 上「下载」网页内容，对 VPS 来说是<strong>上传</strong>。
+            <a href="https://bill.hostdare.com/aff.php?aff=4226" target="_blank" rel="noreferrer noopener nofollow sponsored">HostDare</a> 的套餐表就明确标注了上传速度：CKVM1 只有 <strong>50Mbps</strong>，
+            CKVM4 也才 100Mbps——线路是 CN2 不假，但速度天花板在这里。
+            只看「1500GB/月」不看上传限速，就会买到一台流量很多但跑不快的机器。
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 id="marketing">标称带宽的四种话术</h2>
+    <p>同样写着「1Gbps」，实际含义可能完全不同。按可信度从高到低：</p>
+
+    <h3 id="dedicated">独享带宽（Dedicated / Guaranteed）</h3>
+    <p>
+        真正属于你的带宽，任何时候都能跑到。这是最贵也最实在的一种，常见于独立服务器和高端 VPS。
+        商家愿意写「独享」「保证带宽」「Guaranteed Bandwidth」的，基本可信。
+    </p>
+
+    <h3 id="shared">共享带宽（Shared）</h3>
+    <p>
+        一条大管道上挂着很多用户，标称值是<strong>理论上限而非保证值</strong>。
+        空闲时能跑满，高峰期被别人挤占。绝大多数便宜 VPS 的「1Gbps」都属于这一类——
+        这不算欺骗，但你要知道那个数字是理想值。
+    </p>
+
+    <h3 id="peak">峰值 / 突发带宽（Burst）</h3>
+    <p>
+        只允许短时间冲到标称值，持续跑会被降速。常见话术是「峰值 1Gbps」「突发可达」。
+        测速软件跑十几秒当然漂亮，但下载一个大文件到一半就掉速。
+        <strong>看到「峰值」「突发」这两个词，就把数字打个折再评估。</strong>
+    </p>
+
+    <h3 id="capped">带宽限速（Port Speed Limit）</h3>
+    <p>
+        端口本身就被限死，比如 50Mbps、100Mbps。这类会明确写在套餐里（如 HostDare 的上传速度列、
+        <a href="https://lisahost.com/aff.php?aff=5932" target="_blank" rel="noreferrer noopener nofollow sponsored">丽萨主机</a> 美国 9929 那档的 60Mbps），属于诚实标注，但你必须看到才行。
+    </p>
+
+    <div class="tip">
+        <p>
+            <strong>怎么验证：</strong>不要只跑一次测速。下载一个 <strong>5GB 以上</strong>的大文件，
+            观察<strong>整个过程</strong>的速度曲线——如果前 20 秒很快然后掉下来，说明是突发带宽；
+            如果全程稳定，才是真的。另外一定要在<strong>晚高峰</strong>再测一次，共享带宽的差别只在那时候才暴露。
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 id="tradeoff">为什么优质线路的机器，带宽反而小</h2>
+    <p>
+        这是买大带宽时最反直觉、也最需要理解的一点。看一组来自本站已收录套餐的真实对比：
+    </p>
+    <div class="vps-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>机器</th>
+                    <th>线路质量</th>
+                    <th>带宽</th>
+                    <th>月流量</th>
+                    <th>价格</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://lisahost.com/aff.php?aff=5932" target="_blank" rel="noreferrer noopener nofollow sponsored">丽萨主机</a> 香港三网 CMI ISP</td>
+                    <td><span class="good">顶级</span>（三网 CMI 住宅）</td>
+                    <td class="price-tag"><strong>50 Mbps</strong></td>
+                    <td>5000GB</td>
+                    <td>¥188/月</td>
+                </tr>
+                <tr>
+                    <td><a href="https://lisahost.com/aff.php?aff=5932" target="_blank" rel="noreferrer noopener nofollow sponsored">丽萨主机</a> 美国 9929 住宅 IP</td>
+                    <td><span class="good">顶级</span>（AS9929 住宅）</td>
+                    <td class="price-tag"><strong>60 Mbps</strong></td>
+                    <td>2000GB</td>
+                    <td>¥88/月</td>
+                </tr>
+                <tr>
+                    <td><a href="https://bill.hostdare.com/aff.php?aff=4226" target="_blank" rel="noreferrer noopener nofollow sponsored">HostDare</a> CKVM1</td>
+                    <td>优质（CN2）</td>
+                    <td class="price-tag">50 Mbps</td>
+                    <td>600GB</td>
+                    <td>$49.99/年</td>
+                </tr>
+                <tr>
+                    <td><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">RackNerd</a> 4核4G</td>
+                    <td>普通国际线路</td>
+                    <td class="price-tag"><strong>1 Gbps</strong></td>
+                    <td>8000GB</td>
+                    <td>$39.99/年</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.dmit.io/aff.php?aff=24731" target="_blank" rel="noreferrer noopener nofollow sponsored">DMIT</a> 洛杉矶 STARTER</td>
+                    <td><span class="good">顶级</span>（CN2 GIA）</td>
+                    <td class="price-tag"><strong>10 Gbps</strong></td>
+                    <td>3000GB</td>
+                    <td>$29.90/月</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        看出规律了吗：<strong>丽萨主机的顶级线路只给 50–60Mbps，RackNerd 的普通线路却给 1Gbps，而且便宜得多。</strong>
+        原因很简单——优质线路的每 GB 传输成本极高，商家只能靠限制带宽来控制成本。
+        普通国际线路带宽便宜，随便给。
+    </p>
+    <p>
+        DMIT 那行是唯一的例外：<strong>10Gbps + CN2 GIA</strong>，两个都要。代价是 $29.90/月，
+        比 RackNerd 同类配置贵将近十倍。这就是「既要线路好又要带宽大」的真实价格。
+    </p>
+    <div class="note">
+        <p>
+            <strong>所以选之前先分清你的瓶颈在哪：</strong>
+        </p>
+        <ul>
+            <li><strong>网页卡、视频缓冲、延迟高</strong> → 瓶颈是<strong>线路</strong>，加带宽没用，该去买 CN2 GIA / AS9929。</li>
+            <li><strong>能连上但下载慢、传大文件慢</strong> → 瓶颈是<strong>带宽</strong>，这时候大带宽机器才有意义。</li>
+            <li><strong>用几天就超流量被限速</strong> → 瓶颈是<strong>流量额度</strong>，要看月流量和每 TB 单价。</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2 id="cost-per-tb">流量单价横向对比：差距有 200 倍</h2>
+    <p>
+        如果你的用途是吃流量的（看 4K、跑下载、做数据同步），比「每月多少钱」更该看的是
+        <strong>「每 TB 流量多少钱」</strong>。按各家套餐算出来的结果差距大得惊人
+        （美元按 1 美元 ≈ 7.2 元换算）：
+    </p>
+    <div class="vps-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>机器</th>
+                    <th>月流量</th>
+                    <th>月价（折合）</th>
+                    <th>每 TB 单价</th>
+                    <th>适合</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">RackNerd</a> 1核1G</td>
+                    <td>3TB</td>
+                    <td>约 ¥8</td>
+                    <td class="price-tag"><strong>约 ¥2.8</strong></td>
+                    <td rowspan="2">大流量、不挑线路</td>
+                </tr>
+                <tr>
+                    <td><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">RackNerd</a> 4核4G</td>
+                    <td>8TB</td>
+                    <td>约 ¥24</td>
+                    <td class="price-tag"><strong>约 ¥3</strong></td>
+                </tr>
+                <tr>
+                    <td><a href="https://akile.ai/register?aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708" target="_blank" rel="noreferrer noopener nofollow sponsored">AkileCloud</a> HKSM-Mini</td>
+                    <td>2.5TB</td>
+                    <td>¥29.99</td>
+                    <td class="price-tag">约 ¥12</td>
+                    <td>大带宽 + 香港线路</td>
+                </tr>
+                <tr>
+                    <td><a href="https://lisahost.com/aff.php?aff=5932" target="_blank" rel="noreferrer noopener nofollow sponsored">丽萨主机</a> 美国 4837</td>
+                    <td>8TB</td>
+                    <td>¥100</td>
+                    <td class="price-tag">约 ¥12.5</td>
+                    <td>住宅 IP + 大流量</td>
+                </tr>
+                <tr>
+                    <td><a href="https://bandwagonhost.com/aff.php?aff=83205" target="_blank" rel="noreferrer noopener nofollow sponsored">搬瓦工</a> 入门档</td>
+                    <td>1TB</td>
+                    <td>约 ¥30</td>
+                    <td class="price-tag">约 ¥30</td>
+                    <td>CN2 GIA 日常使用</td>
+                </tr>
+                <tr>
+                    <td><a href="https://lisahost.com/aff.php?aff=5932" target="_blank" rel="noreferrer noopener nofollow sponsored">丽萨主机</a> 香港 CMI</td>
+                    <td>5TB</td>
+                    <td>¥188</td>
+                    <td class="price-tag">约 ¥37.6</td>
+                    <td>香港住宅 IP</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.dmit.io/aff.php?aff=24731" target="_blank" rel="noreferrer noopener nofollow sponsored">DMIT</a> 洛杉矶 STARTER</td>
+                    <td>3TB</td>
+                    <td>约 ¥215</td>
+                    <td class="price-tag">约 ¥72</td>
+                    <td>10Gbps 峰值需求</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.dmit.io/aff.php?aff=24731" target="_blank" rel="noreferrer noopener nofollow sponsored">DMIT</a> 香港 TINY</td>
+                    <td>0.5TB</td>
+                    <td>约 ¥287</td>
+                    <td class="price-tag"><strong>约 ¥574</strong></td>
+                    <td>极致线路，不适合跑流量</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        最便宜和最贵之间差了 <strong>200 倍</strong>。这不代表 DMIT 香港贵得没道理——
+        它卖的是延迟和稳定性，不是流量。但如果你拿它去跑 BT 下载，那就是把顶级线路当水管用，
+        几天就能把 500GB 跑光。
+    </p>
+    <div class="tip">
+        <p>
+            <strong>估算自己的用量：</strong>单人日常科学上网每月约 <strong>100–300GB</strong>；
+            经常看 1080p / 4K 每月 <strong>500GB–1TB</strong>；BT/PT 下载做种，<strong>2TB 起步、上不封顶</strong>。
+            先按月付用一个月看后台的实际流量统计，再决定买哪档，比拍脑袋准得多。
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 id="home-bottleneck">先确认：你的家宽是不是真正的瓶颈</h2>
+    <p>
+        这是买大带宽前最该做的一件事。<strong>VPS 的带宽再大，也不可能超过你自己宽带的下行速度。</strong>
+        家里是 100M 宽带，买 1Gbps 的 VPS，能跑到的仍然是 100M 左右——多花的钱完全没有意义。
+    </p>
+    <div class="vps-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>你的家宽</th>
+                    <th>实际能吃下多少</th>
+                    <th>建议 VPS 带宽</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>100M</td>
+                    <td>约 12.5 MB/s</td>
+                    <td>100–200Mbps 就够，再高是浪费</td>
+                </tr>
+                <tr>
+                    <td>200–300M</td>
+                    <td>约 25–37 MB/s</td>
+                    <td>300–500Mbps</td>
+                </tr>
+                <tr>
+                    <td>500M–1000M</td>
+                    <td>约 62–125 MB/s</td>
+                    <td><span class="good">1Gbps 才开始有意义</span></td>
+                </tr>
+                <tr>
+                    <td>多人共享 / 多设备</td>
+                    <td>按人数叠加</td>
+                    <td>1Gbps 或按流量计费</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        而且实际链路上还有别的瓶颈：国际出口拥堵、路由绕路、加密开销、你家路由器的转发能力。
+        <strong>跨境链路能跑到家宽标称值的 50%–70% 就已经很不错了。</strong>
+    </p>
+    <div class="warning">
+        <p>
+            <strong>万兆（10Gbps）VPS 对个人基本没有意义。</strong>
+            没有任何家用宽带吃得下 10Gbps，它面向的是企业分发、镜像站、大流量业务。
+            个人买它唯一的价值是<strong>峰值不受限</strong>——比如短时间内拉完一个大文件。
+            而且这类机型通常按流量计费，真跑满几分钟就是一大笔钱。
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 id="billing">固定带宽还是按流量计费</h2>
+    <div class="vps-table">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>固定带宽 + 月流量包</th>
+                    <th>按流量计费</th>
+                    <th>不限流量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>怎么收费</strong></td>
+                    <td>包月固定价，超流量限速或停机</td>
+                    <td>用多少付多少</td>
+                    <td>固定价，流量不限</td>
+                </tr>
+                <tr>
+                    <td><strong>带宽</strong></td>
+                    <td>中等</td>
+                    <td>通常给得大</td>
+                    <td><span class="price-tag">通常被限得低</span></td>
+                </tr>
+                <tr>
+                    <td><strong>适合</strong></td>
+                    <td>用量稳定可预测</td>
+                    <td>用量波动大、偶尔要跑满</td>
+                    <td>长期持续中等用量</td>
+                </tr>
+                <tr>
+                    <td><strong>风险</strong></td>
+                    <td>超了要补钱或降速</td>
+                    <td><span class="price-tag">账单可能失控</span></td>
+                    <td>带宽小，跑不快</td>
+                </tr>
+                <tr>
+                    <td><strong>例子</strong></td>
+                    <td><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">RackNerd</a>、<a href="https://bandwagonhost.com/aff.php?aff=83205" target="_blank" rel="noreferrer noopener nofollow sponsored">搬瓦工</a></td>
+                    <td><a href="https://www.vultr.com/?ref=9912218-9J" target="_blank" rel="noreferrer noopener nofollow sponsored">Vultr</a>、<a href="https://akile.ai/register?aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708" target="_blank" rel="noreferrer noopener nofollow sponsored">AkileCloud</a></td>
+                    <td><a href="https://akile.ai/register?aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708" target="_blank" rel="noreferrer noopener nofollow sponsored">AkileCloud</a> UNLIMITED（¥187.50/月，500M）</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        注意「不限流量」这一栏的规律：<strong>不限流量的套餐，带宽一定会被限制</strong>。
+        Akile 的 UNLIMITED 就是典型——流量无限，但带宽从 1000M 降到 500M，价格还贵了 6 倍。
+        天下没有「带宽又大流量又无限」的便宜事，这是物理成本决定的。
+    </p>
+</section>
+
+<section>
+    <h2 id="picks">大带宽VPS推荐与套餐</h2>
+
+    <h3 id="pick-dmit">DMIT — 带宽上限最高，10Gbps + CN2 GIA</h3>
+    <p>
+        <a href="https://www.dmit.io/aff.php?aff=24731" target="_blank" rel="noreferrer noopener nofollow sponsored">DMIT</a> 是这份名单里唯一做到<strong>顶级线路和超大带宽兼得</strong>的。
+        洛杉矶 Premium Network 的 STARTER 档给到 <strong>10Gbps</strong> 带宽 + 3000GB 流量，
+        Pocket 档也有 4Gbps。这个带宽数字在 VPS 里属于第一梯队，而线路仍然是 CN2 GIA。
+    </p>
+    <p>
+        代价当然是价格。但换个角度算：$29.90/月 拿到 10Gbps + CN2 GIA，
+        如果你确实需要「随时能跑满、而且晚高峰也不掉」，市面上便宜的替代方案其实不多。
+    </p>
+    <b>美国洛杉矶 Premium Network</b>
+                            <table class="provider-table">
+                                <thead><tr><th>套餐</th><th>处理器 / 内存</th><th>硬盘</th><th>流量</th><th>带宽</th><th>价格</th><th>购买链接</th></tr></thead>
+                                <tbody>
+                                    <tr><td>TINY</td><td>1 核 / 2GB</td><td>20GB SSD</td><td>1000GB</td><td>1Gbps</td><td class="price-tag">$9.99/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=100" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>Pocket</td><td>2 核 / 2GB</td><td>40GB SSD</td><td>1500GB</td><td>4Gbps</td><td class="price-tag">$14.90/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=137" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>STARTER</td><td>2 核 / 2GB</td><td>80GB SSD</td><td>3000GB</td><td>10Gbps</td><td class="price-tag">$29.90/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=56" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                </tbody>
+                            </table>
+                            <b>香港 Premium Network</b>
+                            <table class="provider-table">
+                                <thead><tr><th>套餐</th><th>处理器 / 内存</th><th>硬盘</th><th>流量</th><th>带宽</th><th>价格</th><th>购买链接</th></tr></thead>
+                                <tbody>
+                                    <tr><td>TINY</td><td>1 核 / 1GB</td><td>20GB SSD</td><td>500GB</td><td>1Gbps</td><td class="price-tag">$39.90/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=123" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>STARTER</td><td>1 核 / 2GB</td><td>40GB SSD</td><td>1000GB</td><td>1Gbps</td><td class="price-tag">$79.90/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=124" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>MINI</td><td>2 核 / 2GB</td><td>60GB SSD</td><td>1500GB</td><td>1Gbps</td><td class="price-tag">$119.90/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=125" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                </tbody>
+                            </table>
+                            <b>日本东京 Premium Network</b>
+                            <table class="provider-table">
+                                <thead><tr><th>套餐</th><th>处理器 / 内存</th><th>硬盘</th><th>流量</th><th>带宽</th><th>价格</th><th>购买链接</th></tr></thead>
+                                <tbody>
+                                    <tr><td>TINY</td><td>1 核 / 1GB</td><td>20GB SSD</td><td>500GB</td><td>1Gbps</td><td class="price-tag">$21.90/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=138" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>STARTER</td><td>1 核 / 2GB</td><td>40GB SSD</td><td>1000GB</td><td>1Gbps</td><td class="price-tag">$39.90/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=139" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>MINI</td><td>2 核 / 2GB</td><td>60GB SSD</td><td>2000GB</td><td>1Gbps</td><td class="price-tag">$79.90/月</td><td class="rating"><a href="https://www.dmit.io/aff.php?aff=24731&amp;pid=140" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                </tbody>
+                            </table>
+    <p>
+        <strong>怎么选：</strong>要带宽就看<strong>洛杉矶</strong>那三档，10Gbps / 4Gbps / 1Gbps 阶梯很清楚。
+        香港和日本节点虽然延迟更低，但带宽都只有 1Gbps、流量最低只给 500GB——
+        那是买延迟的，不是买带宽的，别搞混。
+    </p>
+
+    <h3 id="pick-racknerd">RackNerd — 流量单价最低，量大管饱</h3>
+    <p>
+        如果你要的不是峰值速度而是<strong>总量</strong>，<a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">RackNerd</a> 的性价比没什么对手：
+        4核4G 那档给 <strong>1Gbps + 8TB/月</strong>，年付 $39.99，
+        折算下来<strong>每 TB 流量约 3 元</strong>——比同类便宜一个数量级。
+    </p>
+    <p>
+        限制还是那句：<strong>普通国际线路</strong>，晚高峰会掉速。
+        适合对延迟不敏感、但需要传大量数据的场景：备份同步、镜像分发、离线下载、批量任务。
+    </p>
+    <b>标准 KVM 系列（洛杉矶 / 圣何塞 / 芝加哥 / 纽约 / 达拉斯 / 西雅图等）</b>
+                            <table class="provider-table">
+                                <thead><tr><th>配置</th><th>硬盘</th><th>月流量</th><th>带宽</th><th>参考价（年付）</th><th>购买</th></tr></thead>
+                                <tbody>
+                                    <tr><td>1 核 / 1GB</td><td>20GB SSD</td><td>3TB</td><td>1Gbps</td><td class="price-tag">约 $13.76/年</td><td class="rating"><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>2 核 / 2GB</td><td>35GB SSD</td><td>5TB</td><td>1Gbps</td><td class="price-tag">约 $17.66/年</td><td class="rating"><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>3 核 / 3GB</td><td>55GB SSD</td><td>6TB</td><td>1Gbps</td><td class="price-tag">约 $26.99/年</td><td class="rating"><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>4 核 / 4GB</td><td>80GB SSD</td><td>8TB</td><td>1Gbps</td><td class="price-tag">约 $39.99/年</td><td class="rating"><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                </tbody>
+                            </table>
+                            <b>AMD Ryzen 高性能系列（阿什本 / 圣何塞）</b>
+                            <table class="provider-table">
+                                <thead><tr><th>配置</th><th>硬盘</th><th>月流量</th><th>带宽</th><th>参考价（年付）</th><th>购买</th></tr></thead>
+                                <tbody>
+                                    <tr><td>1 核 / 1.5GB</td><td>30GB NVMe</td><td>2.5TB</td><td>1Gbps</td><td class="price-tag">约 $19.00/年</td><td class="rating"><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>2 核 / 2GB</td><td>40GB NVMe</td><td>4TB</td><td>1Gbps</td><td class="price-tag">约 $29.00/年</td><td class="rating"><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>2 核 / 4GB</td><td>65GB NVMe</td><td>6TB</td><td>1Gbps</td><td class="price-tag">约 $55.88/年</td><td class="rating"><a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                </tbody>
+                            </table>
+
+    <h3 id="pick-akile">AkileCloud — 低价位里的大带宽 + 优质线路</h3>
+    <p>
+        <a href="https://akile.ai/register?aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708" target="_blank" rel="noreferrer noopener nofollow sponsored">AkileCloud</a> 的 HKSM-Mini 是这个价位里比较少见的组合：
+        <strong>¥29.99/月 给 1000M 带宽 + 2500GB 流量</strong>，还是香港节点。
+        每 TB 约 12 元，带宽拉满，延迟也低——对大多数「想看 4K 不卡」的需求来说，这一档就够了。
+    </p>
+    <p>
+        另一档 HKSM-UNLIMITED 是<strong>无限流量</strong>方案，¥187.50/月，但带宽降到 500M。
+        适合长期挂着跑、不想每月算流量账的场景。
+    </p>
+    <table class="provider-table">
+                                <thead><tr><th>套餐名称</th><th>月付价格</th><th>CPU / 内存</th><th>硬盘</th><th>月流量 / 带宽</th><th>特色优势</th><th>购买</th></tr></thead>
+                                <tbody>
+                                    <tr><td>HKSM-Mini</td><td class="price-tag">¥29.99</td><td>1 核 / 1GB</td><td>10GB</td><td>2500GB / 1000M</td><td>性价比优选</td><td class="rating"><a href="https://akile.ai/shop/server?type=traffic&amp;areaId=3&amp;nodeId=1&amp;planId=994&amp;aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>HKSM-UNLIMITED</td><td class="price-tag">¥187.50</td><td>2 核 / 2GB</td><td>20GB</td><td>无限制 / 500M</td><td>无限流量</td><td class="rating"><a href="https://akile.ai/shop/server?type=traffic&amp;areaId=3&amp;nodeId=1&amp;planId=913&amp;aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                </tbody>
+                            </table>
+
+    <h3 id="pick-lisahost">丽萨主机 — 大流量 + 住宅 IP</h3>
+    <p>
+        <a href="https://lisahost.com/aff.php?aff=5932" target="_blank" rel="noreferrer noopener nofollow sponsored">丽萨主机</a> 值得单独提一下，因为它的<strong>美国 4837 进阶版</strong>是个特殊组合：
+        <strong>500Mbps + 8000GB 流量 + 住宅 IP</strong>，¥100/月，每 TB 约 12.5 元。
+        住宅 IP 通常流量都给得很少（同厂的 9929 那档只有 2000GB 且限速 60Mbps），
+        这一档是少见的「住宅 IP 还能大流量」。
+    </p>
+    <p>
+        如果你既要 IP 干净（解锁、注册账号）又要跑流量，这一档比较难被替代。
+    </p>
+    <table class="provider-table">
+                                <thead><tr><th>套餐名称</th><th>配置</th><th>价格</th><th>购买链接</th></tr></thead>
+                                <tbody>
+                                    <tr><td>美国9929住宅IP</td><td>KVM/1核/1G/20GNVMe固态硬盘/60Mbps带宽/2000GB 流量</td><td class="price-tag">¥88/月</td><td class="rating"><a href="https://lisahost.com/aff.php?aff=5932&amp;pid=58" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>美国4837进阶版住宅IP</td><td>KVM/2核/2G/40GNVMe固态硬盘/500Mbps带宽/8000GB 流量</td><td class="price-tag">¥100/月</td><td class="rating"><a href="https://lisahost.com/aff.php?aff=5932&amp;pid=47" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>香港三网CMIISP</td><td>KVM/2核/2G/40G NVMe固态硬盘/50Mbps带宽/5000GB 流量</td><td class="price-tag">¥188/月</td><td class="rating"><a href="https://lisahost.com/aff.php?aff=5932&amp;pid=91" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>香港HGC原生住宅IP</td><td>KVM/2核/2G/40G NVMe固态硬盘/100Mbps带宽/5000GB 流量</td><td class="price-tag">¥299/月</td><td class="rating"><a href="https://lisahost.com/aff.php?aff=5932&amp;pid=122" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>英国双ISP住宅IP</td><td>KVM/1核/1G/10GNVMe固态硬盘/300Mbps带宽/6000GB 流量</td><td class="price-tag">¥68/月</td><td class="rating"><a href="https://lisahost.com/aff.php?aff=5932&amp;pid=98" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                    <tr><td>韩国双ISP住宅IP</td><td>KVM/1核/1G/20GNVMe固态硬盘/100Mbps带宽/3000GB 流量</td><td class="price-tag">¥99/月</td><td class="rating"><a href="https://lisahost.com/aff.php?aff=5932&amp;pid=128" target="_blank" rel="noreferrer noopener nofollow sponsored">立即购买</a></td></tr>
+                                </tbody>
+                            </table>
+</section>
+
+<div class="faq">
+    <h2 id="faq">大带宽VPS常见问题</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">标称 1Gbps，为什么我只能跑到几十兆？</div>
+        <div class="faq-answer">
+            <p>按可能性从高到低排查：</p>
+            <ul>
+                <li><strong>你的家宽不够</strong>：100M 宽带最多跑 12.5MB/s，VPS 再快也没用。这是最常见的原因。</li>
+                <li><strong>是共享带宽不是独享</strong>：标称值只是上限，高峰期被其他用户挤占。</li>
+                <li><strong>是峰值/突发带宽</strong>：只允许短时间冲高，持续传输会被降速。</li>
+                <li><strong>上传速度被单独限制</strong>：从 VPS 取数据走的是它的上传通道，很多套餐会单独限速（如 50Mbps）。</li>
+                <li><strong>线路拥堵</strong>：跨境国际出口在晚高峰拥堵，带宽再大也挤不过去。</li>
+                <li><strong>单线程限制</strong>：单个连接跑不满，用多线程下载工具测才准。</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">带宽和流量有什么区别？该优先看哪个？</div>
+        <div class="faq-answer">
+            <p><strong>带宽是速度上限，流量是总量配额</strong>，两者独立。</p>
+            <ul>
+                <li><strong>带宽决定「多快」</strong>：1Gbps ≈ 125MB/s，100Mbps ≈ 12.5MB/s（除以 8）。</li>
+                <li><strong>流量决定「能用多久」</strong>：1TB/月 意味着一个月总共传 1TB，超了限速或停机。</li>
+                <li><strong>看下载速度慢</strong> → 优先看带宽。</li>
+                <li><strong>用几天就被限速</strong> → 优先看流量额度。</li>
+            </ul>
+            <p>举例：500Mbps + 500GB 的机器很快但用不了几天；100Mbps + 8TB 的机器不快但可以一直传。</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">为什么线路好的 VPS 带宽反而小？</div>
+        <div class="faq-answer">
+            <p>因为优质线路的每 GB 传输成本极高，商家只能用限制带宽来控制成本。看真实数据：</p>
+            <ul>
+                <li>丽萨主机<strong>香港三网 CMI 住宅</strong>：顶级线路，但只有 <strong>50Mbps</strong>，¥188/月。</li>
+                <li>丽萨主机<strong>美国 AS9929 住宅</strong>：顶级线路，<strong>60Mbps</strong>，¥88/月。</li>
+                <li>RackNerd <strong>普通国际线路</strong>：<strong>1Gbps</strong>，年付 $39.99。</li>
+            </ul>
+            <p>
+                唯一的例外是 DMIT 洛杉矶 STARTER：10Gbps + CN2 GIA，$29.90/月——
+                两个都要的价格，大约是只要带宽的十倍。
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">1000M（1Gbps）的 VPS 值得买吗？</div>
+        <div class="faq-answer">
+            <p>先看你家宽带：</p>
+            <ul>
+                <li><strong>家宽 100M</strong>：不值得，跑不满，选 100–200Mbps 的套餐把钱省下来买线路。</li>
+                <li><strong>家宽 500M 以上</strong>：值得，1Gbps 才开始能发挥出来。</li>
+                <li><strong>多人共享节点</strong>：值得，几个人同时用会叠加。</li>
+                <li><strong>要跑 BT/PT、做数据同步</strong>：值得，但更要看流量额度够不够。</li>
+            </ul>
+            <p>还要注意跨境链路的损耗，能跑到家宽标称值的 50%–70% 就算正常。</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">万兆 VPS 个人用得上吗？</div>
+        <div class="faq-answer">
+            <p><strong>基本用不上。</strong></p>
+            <ul>
+                <li><strong>没有家用宽带吃得下 10Gbps</strong>，家里千兆宽带也只能用掉十分之一。</li>
+                <li><strong>面向的是企业场景</strong>：镜像分发、大流量业务、CDN 回源。</li>
+                <li><strong>唯一的个人价值是峰值不受限</strong>：短时间拉完一个大文件不被限速。</li>
+                <li><strong>成本风险高</strong>：这类机型多按流量计费，真跑满几分钟账单就很可观。</li>
+            </ul>
+            <p>个人用户把预算花在<strong>线路质量</strong>上，收益远大于堆带宽数字。</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">「不限流量」的 VPS 是真的无限吗？</div>
+        <div class="faq-answer">
+            <p>流量确实不限，但一定会在别的地方找补：</p>
+            <ul>
+                <li><strong>带宽被限低</strong>：这是最常见的做法。Akile 的 UNLIMITED 套餐流量无限，
+                    但带宽从 1000M 降到 500M，价格还贵了 6 倍（¥187.50 vs ¥29.99）。</li>
+                <li><strong>公平使用政策（FUP）</strong>：条款里通常写着「异常高用量可限速或终止」，实际有隐性上限。</li>
+                <li><strong>禁止特定用途</strong>：BT/PT、CDN 回源常被排除在「不限」之外。</li>
+            </ul>
+            <p>判断方法：算一下「不限流量的价格 ÷ 有限流量套餐的每 TB 单价」，就知道要跑多少量才回本。</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">怎么测出真实带宽？测速网站准吗？</div>
+        <div class="faq-answer">
+            <p>测速网站只能测个大概，会漏掉突发带宽的问题。更可靠的做法：</p>
+            <ul>
+                <li><strong>下载大文件看曲线</strong>：拉一个 5GB 以上的文件，看全程速度。前 20 秒快、之后掉下来 = 突发带宽。</li>
+                <li><strong>多线程测</strong>：单连接经常跑不满，用支持多线程的下载工具才能测出上限。</li>
+                <li><strong>晚高峰再测一次</strong>：晚上 8–11 点，共享带宽的真面目只在这时候出现。</li>
+                <li><strong>双向都测</strong>：从 VPS 下载和上传到 VPS 分开测，上传常被单独限速。</li>
+                <li><strong>用 iperf3 对测</strong>：如果有两台机器，这是最准确的方式，排除了公网测速节点的干扰。</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">超流量之后会怎样？</div>
+        <div class="faq-answer">
+            <p>各家政策不同，下单前一定要确认，这是最容易吃暗亏的条款：</p>
+            <ul>
+                <li><strong>限速</strong>：最常见也最温和，降到很低的速度（如 5Mbps）直到下个计费周期。
+                    WePC 菲律宾那档就明确标注「5Mbps 超流量限速」。</li>
+                <li><strong>停机</strong>：直接暂停服务，要补购流量包才能恢复。</li>
+                <li><strong>自动扣费</strong>：按超出量计费，<strong>这种最危险</strong>，配置错误可能产生高额账单。</li>
+            </ul>
+            <p>建议在 VPS 上装流量监控（如 vnStat），并在商家后台开启流量告警。</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">双向流量和单向流量怎么算？</div>
+        <div class="faq-answer">
+            <p>这是比价时的隐藏陷阱，同样标「1TB」可能差一倍：</p>
+            <ul>
+                <li><strong>单向计费</strong>：只算出站（或只算入站）流量，实际可用量更大。</li>
+                <li><strong>双向计费</strong>：进出都算，1TB 实际只能传 500GB 左右。WePC 的套餐就明确标注「双向流量」。</li>
+                <li><strong>怎么问</strong>：售前工单直接问「流量是单向还是双向计费」，一句话的事。</li>
+            </ul>
+            <p>比价时把双向流量的标称值除以 2，才是和单向计费可比的数字。</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">大带宽 VPS 适合跑 BT/PT 下载吗？</div>
+        <div class="faq-answer">
+            <p>技术上很合适，但有三个前提：</p>
+            <ul>
+                <li><strong>商家是否允许</strong>：很多商家在服务条款里禁止 P2P，违规直接停机。买之前必须确认。</li>
+                <li><strong>流量够不够</strong>：BT 是流量大户，建议 2TB 起步，做种则要不限流量。
+                    按每 TB 单价算，RackNerd（约 ¥3/TB）这类才划算，拿 DMIT 香港（约 ¥574/TB）跑下载是在烧钱。</li>
+                <li><strong>硬盘够不够</strong>：下载要落盘，10GB 的入门套餐完全不够，做种建议 100GB 以上。</li>
+            </ul>
+            <p>另外美国机房容易收到 DMCA 版权投诉，欧洲机房通常宽松一些。请只用于合法资源并遵守当地法律。</p>
+        </div>
+    </div>
+</div>
+
+            
+<section class="related">
+    <h2>相关阅读</h2>
+    <ul>
+        <li><a href="../"><strong>梯子VPS</strong><span>搭梯子 VPS 到底怎么选？CN2 GIA、AS9929、CMIN2、AS4837 线路对比，从年付十几美元的低价机到 1Gbps 大带宽与按流量计费机型，按预算和用途分四档整理，同时兼顾免备案建站与 BT/PT 下载。</span></a></li>
+        <li><a href="../cheap-vps/"><strong>便宜VPS</strong><span>预算有限也能买到能用的机器，关键是知道便宜的代价在哪。</span></a></li>
+    </ul>
+</section>
+
+        </main>
+
+        <aside class="sidebar" aria-label="侧边栏">
+            <details class="side-box toc-box" id="toc" open>
+            <summary class="side-title">文章目录</summary>
+            <ol class="toc-list">
+                <li class="lv2"><a href="#quick-answer">先给结论</a></li>
+                <li class="lv2"><a href="#basics">带宽、流量、上传速度：三个不同的东西</a></li>
+                <li class="lv2"><a href="#marketing">标称带宽的四种话术</a></li>
+                <li class="lv3"><a href="#dedicated">独享带宽（Dedicated / Guaranteed）</a></li>
+                <li class="lv3"><a href="#shared">共享带宽（Shared）</a></li>
+                <li class="lv3"><a href="#peak">峰值 / 突发带宽（Burst）</a></li>
+                <li class="lv3"><a href="#capped">带宽限速（Port Speed Limit）</a></li>
+                <li class="lv2"><a href="#tradeoff">为什么优质线路的机器，带宽反而小</a></li>
+                <li class="lv2"><a href="#cost-per-tb">流量单价横向对比：差距有 200 倍</a></li>
+                <li class="lv2"><a href="#home-bottleneck">先确认：你的家宽是不是真正的瓶颈</a></li>
+                <li class="lv2"><a href="#billing">固定带宽还是按流量计费</a></li>
+                <li class="lv2"><a href="#picks">大带宽VPS推荐与套餐</a></li>
+                <li class="lv3"><a href="#pick-dmit">DMIT — 带宽上限最高，10Gbps + CN2 GIA</a></li>
+                <li class="lv3"><a href="#pick-racknerd">RackNerd — 流量单价最低，量大管饱</a></li>
+                <li class="lv3"><a href="#pick-akile">AkileCloud — 低价位里的大带宽 + 优质线路</a></li>
+                <li class="lv3"><a href="#pick-lisahost">丽萨主机 — 大流量 + 住宅 IP</a></li>
+                <li class="lv2"><a href="#faq">大带宽VPS常见问题</a></li>
+            </ol>
+        </details>
+            <div class="side-box provider-box">
+            <h2 class="side-title">商家推荐</h2>
+            <ul class="pv-list">
+                <li>
+                    <a href="https://bandwagonhost.com/aff.php?aff=83205" target="_blank" rel="noreferrer noopener nofollow sponsored">搬瓦工</a><span class="pv-price">$49.99/年起</span>
+                    <span class="pv-tag">CN2 GIA 老牌商家，稳定性口碑最好</span>
+                </li>
+                <li>
+                    <a href="https://www.dmit.io/aff.php?aff=24731" target="_blank" rel="noreferrer noopener nofollow sponsored">DMIT</a><span class="pv-price">$9.99/月起</span>
+                    <span class="pv-tag">高质量 CN2 GIA 线路 + DDoS 防护</span>
+                </li>
+                <li>
+                    <a href="https://lisahost.com/aff.php?aff=5932" target="_blank" rel="noreferrer noopener nofollow sponsored">丽萨主机</a><span class="pv-price">¥68/月起</span>
+                    <span class="pv-tag">全流媒体解锁，原生 IP</span>
+                </li>
+                <li>
+                    <a href="https://vpszhijia.com/recommends/bytevirt" target="_blank" rel="noreferrer noopener nofollow sponsored">ByteVirt</a><span class="pv-price">$5.50/月起</span>
+                    <span class="pv-tag">CN2 GIA 与普通线路都有，按需选档</span>
+                </li>
+                <li>
+                    <a href="https://www.666clouds.com/aff.php?aff=4601" target="_blank" rel="noreferrer noopener nofollow sponsored">666Clouds</a><span class="pv-price">¥45/月起</span>
+                    <span class="pv-tag">七大地区原生 IP / 双 ISP，线路可挑</span>
+                </li>
+                <li>
+                    <a href="https://my.racknerd.com/aff.php?aff=15319" target="_blank" rel="noreferrer noopener nofollow sponsored">RackNerd</a><span class="pv-price">约 $13.76/年起</span>
+                    <span class="pv-tag">年付十几美元，促销价永久锁定不涨价</span>
+                </li>
+                <li>
+                    <a href="https://bill.hostdare.com/aff.php?aff=4226" target="_blank" rel="noreferrer noopener nofollow sponsored">HostDare</a><span class="pv-price">$7.99/季起</span>
+                    <span class="pv-tag">便宜 CN2 VPS，年付性价比高</span>
+                </li>
+            </ul>
+            <p class="pv-note">价格说明：表中为整理时的参考价，商家促销与调价频繁，实际价格以官网结算页为准。</p>
+        </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container footer">
+            <p>© 2026 VPSChoice 专业VPS推荐指南 | 价格可能变动，请以官网为准</p>
+            <p>免责声明：本站信息仅供参考，不构成购买建议。页面内商家链接为推广链接，不影响评测结论与售价。使用任何 VPS 服务前请自行评估风险并遵守当地法律法规。</p>
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="返回顶部" hidden>
+        <span aria-hidden="true">↑</span>
+    </button>
+
+    <script>
+        // FAQ 展开/收起：默认全部展开（利于搜索引擎抓取），点击或回车可折叠
+        document.querySelectorAll('.faq-question').forEach(function (question) {
+            question.setAttribute('role', 'button');
+            question.setAttribute('tabindex', '0');
+            question.setAttribute('aria-expanded', 'true');
+
+            var toggle = function () {
+                var answer = question.nextElementSibling;
+                if (!answer) return;
+                var collapsed = answer.style.display === 'none';
+                answer.style.display = collapsed ? 'block' : 'none';
+                question.setAttribute('aria-expanded', String(collapsed));
+            };
+
+            question.addEventListener('click', toggle);
+            question.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+            });
+        });
+
+        // 移动端导航展开
+        (function () {
+            var btn = document.querySelector('.nav-toggle');
+            var nav = document.getElementById('site-nav');
+            if (!btn || !nav) return;
+            btn.addEventListener('click', function () {
+                var open = nav.classList.toggle('is-open');
+                btn.setAttribute('aria-expanded', String(open));
+            });
+        })();
+
+        // 移动端默认收起目录，避免把正文顶下去
+        (function () {
+            var toc = document.getElementById('toc');
+            if (toc && window.matchMedia('(max-width: 1023px)').matches) toc.removeAttribute('open');
+        })();
+
+        // 返回顶部
+        (function () {
+            var btn = document.querySelector('.to-top');
+            if (!btn) return;
+            var last = 0;
+            var sync = function () {
+                var now = Date.now();
+                if (now - last < 150) return;
+                last = now;
+                var show = (window.pageYOffset || document.documentElement.scrollTop) > 600;
+                if (show === !btn.hidden) return;
+                btn.hidden = !show;
+            };
+            window.addEventListener('scroll', sync, { passive: true });
+            btn.addEventListener('click', function () {
+                // 尊重系统的「减少动态效果」设置
+                var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                var top = function () { return window.pageYOffset || document.documentElement.scrollTop || 0; };
+                var before = top();
+                try { window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); }
+                catch (e) { window.scrollTo(0, 0); }
+                // 兜底：部分内嵌浏览器不支持平滑滚动，300ms 后没动就直接跳
+                setTimeout(function () {
+                    if (top() > 0 && top() >= before) { window.scrollTo(0, 0); }
+                }, 300);
+            });
+            sync();
+        })();
+
+        // 侧边栏目录：滚动高亮当前章节（取最后一个已滚过阈值线的标题）
+        (function () {
+            var links = [].slice.call(document.querySelectorAll('.toc-list a'));
+            if (!links.length) return;
+            var entries = [];
+            links.forEach(function (a) {
+                var el = document.getElementById(a.getAttribute('href').slice(1));
+                if (el) entries.push({ link: a, el: el });
+            });
+            if (!entries.length) return;
+
+            var current = null;
+            var update = function () {
+                var line = 120;   // 视口顶部往下 120px 作为判定线
+                var found = entries[0];
+                for (var i = 0; i < entries.length; i++) {
+                    if (entries[i].el.getBoundingClientRect().top <= line) found = entries[i];
+                    else break;
+                }
+                if (found === current) return;
+                if (current) current.link.classList.remove('is-active');
+                found.link.classList.add('is-active');
+                current = found;
+                // 目录很长时，让高亮项保持在侧边栏可视范围内
+                var box = document.querySelector('.sidebar');
+                if (box && box.scrollHeight > box.clientHeight) {
+                    var lr = found.link.getBoundingClientRect(), br = box.getBoundingClientRect();
+                    if (lr.top < br.top || lr.bottom > br.bottom) {
+                        box.scrollTop += lr.top - br.top - box.clientHeight / 3;
+                    }
+                }
+            };
+
+            // 时间戳节流：同步执行，不依赖 requestAnimationFrame
+            // （页面不可见时 rAF 会被冻结，改用节流可避免这一失效场景）
+            var last = 0;
+            var onScroll = function () {
+                var now = Date.now();
+                if (now - last < 80) return;
+                last = now;
+                update();
+            };
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            window.addEventListener('hashchange', onScroll);
+
+            // 双保险：IntersectionObserver 独立于 scroll 事件触发，
+            // 覆盖锚点跳转、程序化滚动等不派发 scroll 的场景
+            if ('IntersectionObserver' in window) {
+                var io = new IntersectionObserver(onScroll, { threshold: [0, 1] });
+                entries.forEach(function (e) { io.observe(e.el); });
+            }
+            update();
+        })();
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vpschoice.github.io/#website",
+      "url": "https://vpschoice.github.io/",
+      "name": "VPSChoice",
+      "inLanguage": "zh-CN",
+      "description": "VPS 选购指南"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://vpschoice.github.io/high-bandwidth-vps/#article",
+      "isPartOf": {
+        "@id": "https://vpschoice.github.io/#website"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://vpschoice.github.io/high-bandwidth-vps/"
+      },
+      "headline": "大带宽VPS推荐：1Gbps、万兆与按流量计费到底怎么选",
+      "description": "讲清带宽与流量的区别、独享带宽与共享峰值的话术识别、按流量计费的成本测算，并推荐真正跑得满的大带宽机型。",
+      "inLanguage": "zh-CN",
+      "image": "https://vpschoice.github.io/static/ivps.png",
+      "author": {
+        "@type": "Organization",
+        "name": "VPSChoice",
+        "url": "https://vpschoice.github.io/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "VPSChoice",
+        "url": "https://vpschoice.github.io/"
+      },
+      "dateModified": "2026-08-31"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://vpschoice.github.io/high-bandwidth-vps/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://vpschoice.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "大带宽VPS推荐"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://vpschoice.github.io/high-bandwidth-vps/#providers",
+      "name": "大带宽 / 按流量 VPS 商家推荐",
+      "numberOfItems": 4,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "DMIT",
+          "description": "高质量 CN2 GIA 线路 + DDoS 防护"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AkileCloud",
+          "description": "1Gbps 大带宽，按流量计费"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Vultr",
+          "description": "按小时计费，全球 30+ 机房，随开随停"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "RAKsmart",
+          "description": "美国独服与大带宽机型丰富"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://vpschoice.github.io/high-bandwidth-vps/#faq",
+      "isPartOf": {
+        "@id": "https://vpschoice.github.io/#website"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "标称 1Gbps，为什么我只能跑到几十兆？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "按可能性从高到低排查： · 你的家宽不够：100M 宽带最多跑 12.5MB/s，VPS 再快也没用。这是最常见的原因。 · 是共享带宽不是独享：标称值只是上限，高峰期被其他用户挤占。 · 是峰值/突发带宽：只允许短时间冲高，持续传输会被降速。 · 上传速度被单独限制：从 VPS 取数据走的是它的上传通道，很多套餐会单独限速（如 50Mbps）。 · 线路拥堵：跨境国际出口在晚高峰拥堵，带宽再大也挤不过去。 · 单线程限制：单个连接跑不满，用多线程下载工具测才准。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "带宽和流量有什么区别？该优先看哪个？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "带宽是速度上限，流量是总量配额，两者独立。 · 带宽决定「多快」：1Gbps ≈ 125MB/s，100Mbps ≈ 12.5MB/s（除以 8）。 · 流量决定「能用多久」：1TB/月 意味着一个月总共传 1TB，超了限速或停机。 · 看下载速度慢 → 优先看带宽。 · 用几天就被限速 → 优先看流量额度。 举例：500Mbps + 500GB 的机器很快但用不了几天；100Mbps + 8TB 的机器不快但可以一直传。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "为什么线路好的 VPS 带宽反而小？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "因为优质线路的每 GB 传输成本极高，商家只能用限制带宽来控制成本。看真实数据： · 丽萨主机香港三网 CMI 住宅：顶级线路，但只有 50Mbps，¥188/月。 · 丽萨主机美国 AS9929 住宅：顶级线路，60Mbps，¥88/月。 · RackNerd 普通国际线路：1Gbps，年付 $39.99。 唯一的例外是 DMIT 洛杉矶 STARTER：10Gbps + CN2 GIA，$29.90/月—— 两个都要的价格，大约是只要带宽的十倍。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "1000M（1Gbps）的 VPS 值得买吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "先看你家宽带： · 家宽 100M：不值得，跑不满，选 100–200Mbps 的套餐把钱省下来买线路。 · 家宽 500M 以上：值得，1Gbps 才开始能发挥出来。 · 多人共享节点：值得，几个人同时用会叠加。 · 要跑 BT/PT、做数据同步：值得，但更要看流量额度够不够。 还要注意跨境链路的损耗，能跑到家宽标称值的 50%–70% 就算正常。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "万兆 VPS 个人用得上吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "基本用不上。 · 没有家用宽带吃得下 10Gbps，家里千兆宽带也只能用掉十分之一。 · 面向的是企业场景：镜像分发、大流量业务、CDN 回源。 · 唯一的个人价值是峰值不受限：短时间拉完一个大文件不被限速。 · 成本风险高：这类机型多按流量计费，真跑满几分钟账单就很可观。 个人用户把预算花在线路质量上，收益远大于堆带宽数字。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "「不限流量」的 VPS 是真的无限吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "流量确实不限，但一定会在别的地方找补： · 带宽被限低：这是最常见的做法。Akile 的 UNLIMITED 套餐流量无限， 但带宽从 1000M 降到 500M，价格还贵了 6 倍（¥187.50 vs ¥29.99）。 · 公平使用政策（FUP）：条款里通常写着「异常高用量可限速或终止」，实际有隐性上限。 · 禁止特定用途：BT/PT、CDN 回源常被排除在「不限」之外。 判断方法：算一下「不限流量的价格 ÷ 有限流量套餐的每 TB 单价」，就知道要跑多少量才回本。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "怎么测出真实带宽？测速网站准吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "测速网站只能测个大概，会漏掉突发带宽的问题。更可靠的做法： · 下载大文件看曲线：拉一个 5GB 以上的文件，看全程速度。前 20 秒快、之后掉下来 = 突发带宽。 · 多线程测：单连接经常跑不满，用支持多线程的下载工具才能测出上限。 · 晚高峰再测一次：晚上 8–11 点，共享带宽的真面目只在这时候出现。 · 双向都测：从 VPS 下载和上传到 VPS 分开测，上传常被单独限速。 · 用 iperf3 对测：如果有两台机器，这是最准确的方式，排除了公网测速节点的干扰。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "超流量之后会怎样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "各家政策不同，下单前一定要确认，这是最容易吃暗亏的条款： · 限速：最常见也最温和，降到很低的速度（如 5Mbps）直到下个计费周期。 WePC 菲律宾那档就明确标注「5Mbps 超流量限速」。 · 停机：直接暂停服务，要补购流量包才能恢复。 · 自动扣费：按超出量计费，这种最危险，配置错误可能产生高额账单。 建议在 VPS 上装流量监控（如 vnStat），并在商家后台开启流量告警。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "双向流量和单向流量怎么算？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "这是比价时的隐藏陷阱，同样标「1TB」可能差一倍： · 单向计费：只算出站（或只算入站）流量，实际可用量更大。 · 双向计费：进出都算，1TB 实际只能传 500GB 左右。WePC 的套餐就明确标注「双向流量」。 · 怎么问：售前工单直接问「流量是单向还是双向计费」，一句话的事。 比价时把双向流量的标称值除以 2，才是和单向计费可比的数字。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "大带宽 VPS 适合跑 BT/PT 下载吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "技术上很合适，但有三个前提： · 商家是否允许：很多商家在服务条款里禁止 P2P，违规直接停机。买之前必须确认。 · 流量够不够：BT 是流量大户，建议 2TB 起步，做种则要不限流量。 按每 TB 单价算，RackNerd（约 ¥3/TB）这类才划算，拿 DMIT 香港（约 ¥574/TB）跑下载是在烧钱。 · 硬盘够不够：下载要落盘，10GB 的入门套餐完全不够，做种建议 100GB 以上。 另外美国机房容易收到 DMCA 版权投诉，欧洲机房通常宽松一些。请只用于合法资源并遵守当地法律。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</body>
+
+</html>

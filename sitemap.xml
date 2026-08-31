@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://vpschoice.github.io/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://vpschoice.github.io/static/images/bandwagong.jpg</image:loc>
+            <image:title>搬瓦工 BandwagonHost 梯子VPS 后台与套餐界面</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://vpschoice.github.io/static/images/dmit.png</image:loc>
+            <image:title>DMIT CN2 GIA 科学上网 VPS 官网套餐页面</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://vpschoice.github.io/static/images/lisahost.png</image:loc>
+            <image:title>丽萨主机 LisaHost 流媒体解锁 VPS 套餐页面</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://vpschoice.github.io/static/images/akile.png</image:loc>
+            <image:title>AkileCloud 大带宽按流量计费 VPS 套餐页面</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://vpschoice.github.io/static/images/wepc.png</image:loc>
+            <image:title>WePC TikTok 优化 VPS 套餐与价格页面</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://vpschoice.github.io/static/images/hostdare.png</image:loc>
+            <image:title>HostDare 便宜 CN2 VPS 套餐与价格页面</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://vpschoice.github.io/cheap-vps/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://vpschoice.github.io/high-bandwidth-vps/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

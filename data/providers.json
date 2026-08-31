@@ -1,0 +1,2139 @@
+{
+  "categories": {
+    "ladder": {
+      "name": "梯子 / 科学上网",
+      "slug": "ladder"
+    },
+    "cheap": {
+      "name": "便宜 / 低价",
+      "slug": "cheap"
+    },
+    "bandwidth": {
+      "name": "大带宽 / 按流量",
+      "slug": "bandwidth"
+    },
+    "wordpress": {
+      "name": "WordPress 建站",
+      "slug": "wordpress"
+    },
+    "ecommerce": {
+      "name": "跨境电商 / 独立站",
+      "slug": "ecommerce"
+    },
+    "foreign-trade": {
+      "name": "外贸 / 物理机",
+      "slug": "foreign-trade"
+    },
+    "airport": {
+      "name": "机场（免运维）",
+      "slug": "airport"
+    }
+  },
+  "providers": [
+    {
+      "logo": "./static/images/bandwagong.jpg",
+      "logoAlt": "搬瓦工 BandwagonHost 梯子VPS 后台与套餐界面",
+      "tables": [
+        {
+          "label": null,
+          "columns": [
+            "存储空间",
+            "内存 / CPU",
+            "月流量",
+            "带宽",
+            "年付价格",
+            "购买链接"
+          ],
+          "rows": [
+            [
+              "20GB SSD",
+              "1GB / 2 核",
+              "1TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$49.99"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=44",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "40GB SSD",
+              "2GB / 3 核",
+              "2TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$99.99"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=45",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "80GB SSD",
+              "4GB / 4 核",
+              "3TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$199.99"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=46",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "160GB SSD",
+              "8GB / 5 核",
+              "4TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$399.99"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=47",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "320GB SSD",
+              "16GB / 6 核",
+              "5TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$799.99"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=48",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "480GB SSD",
+              "24GB / 7 核",
+              "6TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$1,199.99"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=49",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "bandwagon",
+      "name": "搬瓦工",
+      "fullName": "搬瓦工（BandwagonHost）",
+      "url": "https://bandwagonhost.com/aff.php?aff=83205",
+      "categories": [
+        "ladder",
+        "ecommerce"
+      ],
+      "tagline": "CN2 GIA 老牌商家，稳定性口碑最好",
+      "priceFrom": "$49.99/年起",
+      "strengths": [
+        "CN2 GIA 直连",
+        "老牌稳定",
+        "支持支付宝"
+      ],
+      "sidebar": true
+    },
+    {
+      "logo": "./static/images/dmit.png",
+      "logoAlt": "DMIT CN2 GIA 科学上网 VPS 官网套餐页面",
+      "tables": [
+        {
+          "label": "美国洛杉矶 Premium Network",
+          "columns": [
+            "套餐",
+            "处理器 / 内存",
+            "硬盘",
+            "流量",
+            "带宽",
+            "价格",
+            "购买链接"
+          ],
+          "rows": [
+            [
+              "TINY",
+              "1 核 / 2GB",
+              "20GB SSD",
+              "1000GB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$9.99/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=100",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "Pocket",
+              "2 核 / 2GB",
+              "40GB SSD",
+              "1500GB",
+              "4Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$14.90/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=137",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "STARTER",
+              "2 核 / 2GB",
+              "80GB SSD",
+              "3000GB",
+              "10Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$29.90/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=56",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "香港 Premium Network",
+          "columns": [
+            "套餐",
+            "处理器 / 内存",
+            "硬盘",
+            "流量",
+            "带宽",
+            "价格",
+            "购买链接"
+          ],
+          "rows": [
+            [
+              "TINY",
+              "1 核 / 1GB",
+              "20GB SSD",
+              "500GB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$39.90/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=123",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "STARTER",
+              "1 核 / 2GB",
+              "40GB SSD",
+              "1000GB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$79.90/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=124",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "MINI",
+              "2 核 / 2GB",
+              "60GB SSD",
+              "1500GB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$119.90/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=125",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "日本东京 Premium Network",
+          "columns": [
+            "套餐",
+            "处理器 / 内存",
+            "硬盘",
+            "流量",
+            "带宽",
+            "价格",
+            "购买链接"
+          ],
+          "rows": [
+            [
+              "TINY",
+              "1 核 / 1GB",
+              "20GB SSD",
+              "500GB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$21.90/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=138",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "STARTER",
+              "1 核 / 2GB",
+              "40GB SSD",
+              "1000GB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$39.90/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=139",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "MINI",
+              "2 核 / 2GB",
+              "60GB SSD",
+              "2000GB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$79.90/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.dmit.io/aff.php?aff=24731&pid=140",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "dmit",
+      "name": "DMIT",
+      "fullName": "DMIT",
+      "url": "https://www.dmit.io/aff.php?aff=24731",
+      "categories": [
+        "ladder",
+        "foreign-trade",
+        "bandwidth"
+      ],
+      "tagline": "高质量 CN2 GIA 线路 + DDoS 防护",
+      "priceFrom": "$9.99/月起",
+      "strengths": [
+        "顶级线路",
+        "高防套餐",
+        "美/港/日多地区"
+      ],
+      "sidebar": true
+    },
+    {
+      "logo": "./static/images/lisahost.png",
+      "logoAlt": "丽萨主机 LisaHost 流媒体解锁 VPS 套餐页面",
+      "tables": [
+        {
+          "label": null,
+          "columns": [
+            "套餐名称",
+            "配置",
+            "价格",
+            "购买链接"
+          ],
+          "rows": [
+            [
+              "美国9929住宅IP",
+              "KVM/1核/1G/20GNVMe固态硬盘/60Mbps带宽/2000GB 流量",
+              {
+                "cls": "price-tag",
+                "text": "¥88/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://lisahost.com/aff.php?aff=5932&pid=58",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "美国4837进阶版住宅IP",
+              "KVM/2核/2G/40GNVMe固态硬盘/500Mbps带宽/8000GB 流量",
+              {
+                "cls": "price-tag",
+                "text": "¥100/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://lisahost.com/aff.php?aff=5932&pid=47",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "香港三网CMIISP",
+              "KVM/2核/2G/40G NVMe固态硬盘/50Mbps带宽/5000GB 流量",
+              {
+                "cls": "price-tag",
+                "text": "¥188/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://lisahost.com/aff.php?aff=5932&pid=91",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "香港HGC原生住宅IP",
+              "KVM/2核/2G/40G NVMe固态硬盘/100Mbps带宽/5000GB 流量",
+              {
+                "cls": "price-tag",
+                "text": "¥299/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://lisahost.com/aff.php?aff=5932&pid=122",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "英国双ISP住宅IP",
+              "KVM/1核/1G/10GNVMe固态硬盘/300Mbps带宽/6000GB 流量",
+              {
+                "cls": "price-tag",
+                "text": "¥68/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://lisahost.com/aff.php?aff=5932&pid=98",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "韩国双ISP住宅IP",
+              "KVM/1核/1G/20GNVMe固态硬盘/100Mbps带宽/3000GB 流量",
+              {
+                "cls": "price-tag",
+                "text": "¥99/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://lisahost.com/aff.php?aff=5932&pid=128",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "lisahost",
+      "name": "丽萨主机",
+      "fullName": "丽萨主机（LisaHost）",
+      "url": "https://lisahost.com/aff.php?aff=5932",
+      "categories": [
+        "ladder",
+        "ecommerce"
+      ],
+      "tagline": "全流媒体解锁，原生 IP",
+      "priceFrom": "¥68/月起",
+      "strengths": [
+        "Netflix / Disney+ 解锁",
+        "高端 CN2",
+        "原生 IP"
+      ],
+      "sidebar": true
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [
+        {
+          "label": "美国洛杉矶 CN2 GIA（三网回程 GIA，移动走 CMIN2）",
+          "columns": [
+            "配置",
+            "硬盘",
+            "月流量",
+            "带宽",
+            "参考价",
+            "购买"
+          ],
+          "rows": [
+            [
+              "1 核 / 512MB",
+              "15GB SSD",
+              "500GB",
+              "500Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$5.50/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "1 核 / 1GB",
+              "20GB SSD",
+              "1TB",
+              "500Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$8.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "2 核 / 2GB",
+              "40GB SSD",
+              "2TB",
+              "500Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$16.50/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "4 核 / 8GB",
+              "100GB SSD",
+              "1TB",
+              "500Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$25.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "美国洛杉矶 Elite（AS9929 精品网，带宽上限更高）",
+          "columns": [
+            "配置",
+            "硬盘",
+            "月流量",
+            "带宽",
+            "参考价",
+            "购买"
+          ],
+          "rows": [
+            [
+              "1 核 / 1GB",
+              "20GB SSD",
+              "1TB",
+              "500Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$5.50/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "2 核 / 2GB",
+              "40GB SSD",
+              "2TB",
+              "800Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$13.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "3 核 / 3GB",
+              "60GB SSD",
+              "3TB",
+              "800Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$21.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "8 核 / 8GB",
+              "120GB SSD",
+              "8TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$72.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "日本东京优化 / 香港 KVM（另有香港 1核1G 约 $1.83/月 起）",
+          "columns": [
+            "配置",
+            "硬盘",
+            "月流量",
+            "带宽",
+            "参考价",
+            "购买"
+          ],
+          "rows": [
+            [
+              "1 核 / 1GB",
+              "30GB SSD",
+              "1TB",
+              "800Mbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $5.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "2 核 / 2GB",
+              "50GB SSD",
+              "1.5TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $8.33/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "4 核 / 8GB",
+              "50GB SSD",
+              "5TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "$25.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://vpszhijia.com/recommends/bytevirt",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "bytevirt",
+      "name": "ByteVirt",
+      "fullName": "ByteVirt",
+      "url": "https://vpszhijia.com/recommends/bytevirt",
+      "categories": [
+        "ladder"
+      ],
+      "tagline": "CN2 GIA 与普通线路都有，按需选档",
+      "priceFrom": "$5.50/月起",
+      "strengths": [
+        "CN2 GIA / AS9929 可选",
+        "AMD EPYC + KVM",
+        "支持支付宝"
+      ],
+      "sidebar": true
+    },
+    {
+      "logo": "./static/images/akile.png",
+      "logoAlt": "AkileCloud 大带宽按流量计费 VPS 套餐页面",
+      "tables": [
+        {
+          "label": null,
+          "columns": [
+            "套餐名称",
+            "月付价格",
+            "CPU / 内存",
+            "硬盘",
+            "月流量 / 带宽",
+            "特色优势",
+            "购买"
+          ],
+          "rows": [
+            [
+              "HKSM-Mini",
+              {
+                "cls": "price-tag",
+                "text": "¥29.99"
+              },
+              "1 核 / 1GB",
+              "10GB",
+              "2500GB / 1000M",
+              "性价比优选",
+              {
+                "cls": "rating",
+                "link": "https://akile.ai/shop/server?type=traffic&areaId=3&nodeId=1&planId=994&aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "HKSM-UNLIMITED",
+              {
+                "cls": "price-tag",
+                "text": "¥187.50"
+              },
+              "2 核 / 2GB",
+              "20GB",
+              "无限制 / 500M",
+              "无限流量",
+              {
+                "cls": "rating",
+                "link": "https://akile.ai/shop/server?type=traffic&areaId=3&nodeId=1&planId=913&aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "akile",
+      "name": "AkileCloud",
+      "fullName": "AkileCloud",
+      "url": "https://akile.ai/register?aff_code=6ade96e3-44db-43ae-9cc1-06512ae5d708",
+      "categories": [
+        "ladder",
+        "bandwidth"
+      ],
+      "tagline": "1Gbps 大带宽，按流量计费",
+      "priceFrom": "¥29.99/月起",
+      "strengths": [
+        "1Gbps 大带宽",
+        "按流量计费",
+        "流媒体解锁"
+      ],
+      "sidebar": false
+    },
+    {
+      "logo": "./static/images/wepc.png",
+      "logoAlt": "WePC TikTok 优化 VPS 套餐与价格页面",
+      "tables": [
+        {
+          "label": null,
+          "columns": [
+            "地区 / 类型",
+            "配置",
+            "带宽 / 流量",
+            "价格",
+            "备注",
+            "链接"
+          ],
+          "rows": [
+            [
+              "深港IEPL中转_0503",
+              "深港IEPL",
+              "300Mbps/500 GB/3个中转/2倍率",
+              {
+                "cls": "price-tag",
+                "text": "¥91.78/月"
+              },
+              "禁用 SOCKS/HTTP/TLS",
+              {
+                "cls": "rating",
+                "link": "https://wepc.au/aff.php?aff=1560&pid=192",
+                "text": "购买"
+              }
+            ],
+            [
+              "阿联酋TikTok专用",
+              "1核/0.5GB内存/10GBSSD",
+              "100Mbps/2TB双向流量",
+              {
+                "cls": "price-tag",
+                "text": "¥114.84/月"
+              },
+              "TIKTOK视频/直播/建议中转",
+              {
+                "cls": "rating",
+                "link": "https://wepc.au/aff.php?aff=1560&pid=208",
+                "text": "购买"
+              }
+            ],
+            [
+              "加拿大原生IP_TK专用",
+              "1核/512MB内存/10GBSSD",
+              "200Mbps/1TB双向流量",
+              {
+                "cls": "price-tag",
+                "text": "¥59.50/月"
+              },
+              "发视频/起号/非优化线路建议中转",
+              {
+                "cls": "rating",
+                "link": "https://wepc.au/aff.php?aff=1560&pid=205",
+                "text": "购买"
+              }
+            ],
+            [
+              "新加坡家宽TK直播",
+              "2 核/1GB内存/10G SSD",
+              "200Mbps/2TB双向流量",
+              {
+                "cls": "price-tag",
+                "text": "¥114.84/月"
+              },
+              "直播建议中转, 移动可直连",
+              {
+                "cls": "rating",
+                "link": "https://wepc.au/aff.php?aff=1560&pid=206",
+                "text": "购买"
+              }
+            ],
+            [
+              "西班牙TikTok专用",
+              "1核/0.5 GB内存/10GBSSD",
+              "100Mbps/1TB双向流量",
+              {
+                "cls": "price-tag",
+                "text": "¥91.78/月"
+              },
+              "必须加中转才能正常",
+              {
+                "cls": "rating",
+                "link": "https://wepc.au/aff.php?aff=1560&pid=199",
+                "text": "购买"
+              }
+            ],
+            [
+              "印度尼西亚TikTok专用",
+              "2核/1GB内存/10GBSSD",
+              "50Mbps/2TB双向流量",
+              {
+                "cls": "price-tag",
+                "text": "¥91.78/月"
+              },
+              "联通电信需中转,部分移动优秀",
+              {
+                "cls": "rating",
+                "link": "https://wepc.au/aff.php?aff=1560&pid=195",
+                "text": "购买"
+              }
+            ],
+            [
+              "菲律宾TikTok专用",
+              "1核/512MB内存/10GBSSD",
+              "50Mbps/1TB双向流量",
+              {
+                "cls": "price-tag",
+                "text": "¥91.78/月"
+              },
+              "5Mbps超流量限速/少部分区域需要中转",
+              {
+                "cls": "rating",
+                "link": "https://wepc.au/aff.php?aff=1560&pid=183",
+                "text": "购买"
+              }
+            ],
+            [
+              "美国纽约双ISP_家宽",
+              "1核/512MB内存/10GB SSD",
+              "200Mbps/1.5TB双向流量",
+              {
+                "cls": "price-tag",
+                "text": "¥59.50/月"
+              },
+              "发视频/起号/非优化线路建议中转",
+              {
+                "cls": "rating",
+                "link": "https://wepc.au/aff.php?aff=1560&pid=207",
+                "text": "购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "wepc",
+      "name": "WePC",
+      "fullName": "WePC",
+      "url": "https://wepc.au/aff.php?aff=1560",
+      "categories": [
+        "ladder",
+        "ecommerce"
+      ],
+      "tagline": "TikTok 优化线路与原生 IP",
+      "priceFrom": "¥59.50/月起",
+      "strengths": [
+        "TikTok 优化",
+        "原生解锁",
+        "澳/港/美节点"
+      ],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [
+        {
+          "label": "🇺🇸 美国 US · 原生 IP（TikTok / ChatGPT，共 10 款）",
+          "columns": [
+            "套餐",
+            "线路 / IP 类型",
+            "带宽 / 流量",
+            "月付",
+            "年付",
+            "购买"
+          ],
+          "rows": [
+            [
+              "美西原生双ISP · CU4837 / G口",
+              "双ISP · AS4837 · G口",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥50/月"
+              },
+              "¥600",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "美西原生双ISP · 国际带宽",
+              "双ISP · 国际带宽",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥50/月"
+              },
+              "¥600",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "美西原生双ISP · NTT 新IP",
+              "双ISP · NTT",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥50/月"
+              },
+              "¥600",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "<strong>美西原生双ISP · 9929优化线路</strong><span class=\"recommended-badge\">新手首选</span>",
+              "双ISP · AS9929",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥55/月"
+              },
+              "¥660",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "<strong>美国原生 IP · 三网CN2 GIA 大带宽</strong><span class=\"recommended-badge\">网络最佳</span>",
+              "CN2 GIA · 三网",
+              "大带宽",
+              {
+                "cls": "price-tag",
+                "text": "¥55/月"
+              },
+              "¥660",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "美西原生双ISP · GTT 线路",
+              "双ISP · GTT",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥55/月"
+              },
+              "¥660",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "美西原生双ISP · CU4837 / 2TB",
+              "双ISP · AS4837",
+              "2TB",
+              {
+                "cls": "price-tag",
+                "text": "¥80/月"
+              },
+              "¥960",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "美西原生双ISP · 国际带宽 4TB",
+              "双ISP · 国际带宽",
+              "4TB",
+              {
+                "cls": "price-tag",
+                "text": "¥80/月"
+              },
+              "¥960",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "美西原生双ISP · NTT 新IP / 2TB",
+              "双ISP · NTT",
+              "2TB",
+              {
+                "cls": "price-tag",
+                "text": "¥80/月"
+              },
+              "¥960",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "美西原生双ISP · GTT / 2TB",
+              "双ISP · GTT",
+              "2TB",
+              {
+                "cls": "price-tag",
+                "text": "¥90/月"
+              },
+              "¥1080",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "🇬🇧 英国 GB · 原生 IP（双ISP / 三网双向优化，共 5 款）",
+          "columns": [
+            "套餐",
+            "线路 / IP 类型",
+            "带宽 / 流量",
+            "月付",
+            "年付",
+            "购买"
+          ],
+          "rows": [
+            [
+              "<strong>英国三网双向优化 · mini版</strong><span class=\"recommended-badge\">限量</span>",
+              "三网双向优化",
+              "mini",
+              {
+                "cls": "price-tag",
+                "text": "¥45/月"
+              },
+              "¥540",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "英国双 ISP（新）",
+              "双ISP · 原生",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥60/月"
+              },
+              "¥720",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "英国三网双向优化 标准型",
+              "三网双向优化",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥60/月"
+              },
+              "¥720",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "英国三网双向优化 · 2核2G",
+              "三网双向优化",
+              "2核2G",
+              {
+                "cls": "price-tag",
+                "text": "¥120/月"
+              },
+              "¥1440",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "英国双 ISP · 高配版",
+              "双ISP",
+              "高配",
+              {
+                "cls": "price-tag",
+                "text": "¥120/月"
+              },
+              "¥1440",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "🇯🇵 日本 JP · 软银 SoftBank 优化（共 4 款）",
+          "columns": [
+            "套餐",
+            "线路 / IP 类型",
+            "带宽 / 流量",
+            "月付",
+            "年付",
+            "购买"
+          ],
+          "rows": [
+            [
+              "日本软银 · 联通首选",
+              "软银 · 联通优化",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥48/月"
+              },
+              "¥576",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "日本 JP 软银 标准型",
+              "软银 · 原生",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥55/月"
+              },
+              "¥660",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "日本软银大流量 · 联通起飞",
+              "软银",
+              "大流量",
+              {
+                "cls": "price-tag",
+                "text": "¥80/月"
+              },
+              "¥960",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "🇰🇷 韩国 KR · 原生 IP（低延迟直连，共 3 款）",
+          "columns": [
+            "套餐",
+            "线路 / IP 类型",
+            "带宽 / 流量",
+            "月付",
+            "年付",
+            "购买"
+          ],
+          "rows": [
+            [
+              "韩国原生 IP 标准型",
+              "原生IP · 韩国",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥60/月"
+              },
+              "¥720",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "韩国双 ISP IP",
+              "双ISP · 原生",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥80/月"
+              },
+              "¥960",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "韩国双 ISP · 升级 2H2G / 2T",
+              "双ISP",
+              "2核2G / 2TB",
+              {
+                "cls": "price-tag",
+                "text": "¥150/月"
+              },
+              "¥1800",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "🇭🇰 香港 HK · CMI 三网优化（共 3 款）",
+          "columns": [
+            "套餐",
+            "线路 / IP 类型",
+            "带宽 / 流量",
+            "月付",
+            "年付",
+            "购买"
+          ],
+          "rows": [
+            [
+              "HK-CMI-150M 大带宽型",
+              "CMI · 三网优化",
+              "150M",
+              {
+                "cls": "price-tag",
+                "text": "¥55/月"
+              },
+              "¥660",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "🇩🇪 德国 DE · 原生 IP（欧洲节点，共 2 款）",
+          "columns": [
+            "套餐",
+            "线路 / IP 类型",
+            "带宽 / 流量",
+            "月付",
+            "年付",
+            "购买"
+          ],
+          "rows": [
+            [
+              "德国原生 IP（新IP补货）",
+              "原生IP · 德国",
+              "—",
+              {
+                "cls": "price-tag",
+                "text": "¥60/月"
+              },
+              "¥720",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "德国原生 IP · 高配置",
+              "原生IP",
+              "高配",
+              {
+                "cls": "price-tag",
+                "text": "¥100/月"
+              },
+              "¥1200",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "🇵🇭 菲律宾 PH · 双ISP（全新上架 · 干净 IP，共 2 款）",
+          "columns": [
+            "套餐",
+            "线路 / IP 类型",
+            "带宽 / 流量",
+            "月付",
+            "年付",
+            "购买"
+          ],
+          "rows": [
+            [
+              "菲律宾双ISP · 1TB流量",
+              "双ISP",
+              "200M / 1TB",
+              {
+                "cls": "price-tag",
+                "text": "¥80/月"
+              },
+              "¥960",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ],
+            [
+              "菲律宾双ISP · 4TB流量",
+              "双ISP",
+              "300M / 4TB",
+              {
+                "cls": "price-tag",
+                "text": "¥160/月"
+              },
+              "¥1920",
+              {
+                "cls": "rating",
+                "link": "https://www.666clouds.com/aff.php?aff=4601",
+                "text": "立即选购"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "666clouds",
+      "name": "666Clouds",
+      "fullName": "666Clouds",
+      "url": "https://www.666clouds.com/aff.php?aff=4601",
+      "categories": [
+        "ladder",
+        "cheap"
+      ],
+      "tagline": "七大地区原生 IP / 双 ISP，线路可挑",
+      "priceFrom": "¥45/月起",
+      "strengths": [
+        "原生 IP / 双 ISP",
+        "美英德港韩日菲 7 地区",
+        "线路细分到 AS 号"
+      ],
+      "sidebar": true,
+      "regions": [
+        "美国 US（CN2·9929·4837）",
+        "英国 GB（双ISP）",
+        "德国 DE（原生IP）",
+        "香港 HK（CMI）",
+        "韩国 KR（原生/双ISP）",
+        "日本 JP（SoftBank）",
+        "菲律宾 PH（双ISP·干净IP）"
+      ]
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [
+        {
+          "label": "标准 KVM 系列（洛杉矶 / 圣何塞 / 芝加哥 / 纽约 / 达拉斯 / 西雅图等）",
+          "columns": [
+            "配置",
+            "硬盘",
+            "月流量",
+            "带宽",
+            "参考价（年付）",
+            "购买"
+          ],
+          "rows": [
+            [
+              "1 核 / 1GB",
+              "20GB SSD",
+              "3TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $13.76/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "2 核 / 2GB",
+              "35GB SSD",
+              "5TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $17.66/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "3 核 / 3GB",
+              "55GB SSD",
+              "6TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $26.99/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "4 核 / 4GB",
+              "80GB SSD",
+              "8TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $39.99/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        },
+        {
+          "label": "AMD Ryzen 高性能系列（阿什本 / 圣何塞）",
+          "columns": [
+            "配置",
+            "硬盘",
+            "月流量",
+            "带宽",
+            "参考价（年付）",
+            "购买"
+          ],
+          "rows": [
+            [
+              "1 核 / 1.5GB",
+              "30GB NVMe",
+              "2.5TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $19.00/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "2 核 / 2GB",
+              "40GB NVMe",
+              "4TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $29.00/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "2 核 / 4GB",
+              "65GB NVMe",
+              "6TB",
+              "1Gbps",
+              {
+                "cls": "price-tag",
+                "text": "约 $55.88/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "racknerd",
+      "name": "RackNerd",
+      "fullName": "RackNerd",
+      "url": "https://my.racknerd.com/aff.php?aff=15319",
+      "categories": [
+        "ladder",
+        "cheap"
+      ],
+      "tagline": "年付十几美元，促销价永久锁定不涨价",
+      "priceFrom": "约 $13.76/年起",
+      "strengths": [
+        "年付极便宜",
+        "续费不涨价",
+        "1Gbps 大流量"
+      ],
+      "sidebar": true
+    },
+    {
+      "logo": "./static/images/hostdare.png",
+      "logoAlt": "HostDare 便宜 CN2 VPS 套餐与价格页面",
+      "tables": [
+        {
+          "label": null,
+          "columns": [
+            "方案",
+            "CPU / 内存",
+            "硬盘容量",
+            "带宽（月流量）",
+            "上传速度",
+            "价格",
+            "购买链接"
+          ],
+          "rows": [
+            [
+              "CKVM1",
+              "1 核 / 756 MB",
+              "35 GB",
+              "600 GB/月",
+              "50 Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$49.99/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bill.hostdare.com/aff.php?aff=4226&pid=74",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "CKVM2",
+              "2 核 / 1.5 GB",
+              "75 GB",
+              "1000 GB/月",
+              "60 Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$76.99/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bill.hostdare.com/aff.php?aff=4226&pid=75",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "CKVM3",
+              "3 核 / 4 GB",
+              "150 GB",
+              "1500 GB/月",
+              "80 Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$112.99/半年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bill.hostdare.com/aff.php?aff=4226&pid=76",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "CKVM4",
+              "4 核 / 8 GB",
+              "300 GB",
+              "2500 GB/月",
+              "100 Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$49.99/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bill.hostdare.com/aff.php?aff=4226&pid=83",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "CKVM5",
+              "5 核 / 16 GB",
+              "600 GB",
+              "3500 GB/月",
+              "100 Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$89.99/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bill.hostdare.com/aff.php?aff=4226&pid=84",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "CKVM6",
+              "1 核 / 756 MB",
+              "150 GB",
+              "600 GB/月",
+              "50 Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$66.99/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bill.hostdare.com/aff.php?aff=4226&pid=93",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "CKVM7",
+              "2 核 / 1.5 GB",
+              "300 GB",
+              "1000 GB/月",
+              "60 Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$133.99/年"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bill.hostdare.com/aff.php?aff=4226&pid=92",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "CKVM8",
+              "3 核 / 4 GB",
+              "450 GB",
+              "1500 GB/月",
+              "80 Mbps",
+              {
+                "cls": "price-tag",
+                "text": "$66.99/季度"
+              },
+              {
+                "cls": "rating",
+                "link": "https://bill.hostdare.com/aff.php?aff=4226&pid=91",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "hostdare",
+      "name": "HostDare",
+      "fullName": "HostDare",
+      "url": "https://bill.hostdare.com/aff.php?aff=4226",
+      "categories": [
+        "cheap",
+        "ladder"
+      ],
+      "tagline": "便宜 CN2 VPS，年付性价比高",
+      "priceFrom": "$7.99/季起",
+      "strengths": [
+        "便宜 CN2",
+        "年付划算"
+      ],
+      "sidebar": true
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [
+        {
+          "label": "Cloud Compute 共享型（全球 30+ 机房，可随时开关机）",
+          "columns": [
+            "配置",
+            "硬盘",
+            "月流量",
+            "计费",
+            "参考价",
+            "购买"
+          ],
+          "rows": [
+            [
+              "1 核 / 512MB（仅 IPv6）",
+              "10GB SSD",
+              "0.5TB",
+              "按小时",
+              {
+                "cls": "price-tag",
+                "text": "约 $2.50/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.vultr.com/?ref=9912218-9J",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "1 核 / 512MB",
+              "10GB SSD",
+              "0.5TB",
+              "按小时",
+              {
+                "cls": "price-tag",
+                "text": "约 $3.50/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.vultr.com/?ref=9912218-9J",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "1 核 / 1GB",
+              "25GB SSD",
+              "1TB",
+              "按小时",
+              {
+                "cls": "price-tag",
+                "text": "约 $5.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.vultr.com/?ref=9912218-9J",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "1 核 / 2GB",
+              "55GB SSD",
+              "2TB",
+              "按小时",
+              {
+                "cls": "price-tag",
+                "text": "约 $10.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.vultr.com/?ref=9912218-9J",
+                "text": "立即购买"
+              }
+            ],
+            [
+              "2 核 / 4GB",
+              "80GB SSD",
+              "3TB",
+              "按小时",
+              {
+                "cls": "price-tag",
+                "text": "约 $20.00/月"
+              },
+              {
+                "cls": "rating",
+                "link": "https://www.vultr.com/?ref=9912218-9J",
+                "text": "立即购买"
+              }
+            ]
+          ]
+        }
+      ],
+      "id": "vultr",
+      "name": "Vultr",
+      "fullName": "Vultr",
+      "url": "https://www.vultr.com/?ref=9912218-9J",
+      "categories": [
+        "ladder",
+        "cheap",
+        "bandwidth"
+      ],
+      "tagline": "按小时计费，全球 30+ 机房，随开随停",
+      "priceFrom": "约 $2.50/月起",
+      "strengths": [
+        "按小时计费",
+        "全球 30+ 机房",
+        "快照与快速重建"
+      ],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "siteground",
+      "name": "SiteGround",
+      "fullName": "SiteGround",
+      "url": "https://www.siteground.com/index.htm?afcode=d3ac46f5f4292c83ad00fd5af7af81e5",
+      "categories": [
+        "wordpress"
+      ],
+      "tagline": "WordPress 官方推荐主机，托管省心",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "chemicloud",
+      "name": "ChemiCloud",
+      "fullName": "ChemiCloud",
+      "url": "https://chemicloud.com/#mb24b38zm4la5",
+      "categories": [
+        "wordpress"
+      ],
+      "tagline": "性价比 WordPress 托管",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "accuwebhosting",
+      "name": "AccuWeb Hosting",
+      "fullName": "AccuWeb Hosting（WordPress）",
+      "url": "https://www.accuwebhosting.com/ref/5150-2-3-1.html",
+      "categories": [
+        "wordpress"
+      ],
+      "tagline": "专用 WordPress 主机方案",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "ultahost",
+      "name": "UltaHost",
+      "fullName": "UltaHost",
+      "url": "https://ultahost.com/#webhub",
+      "categories": [
+        "wordpress"
+      ],
+      "tagline": "NVMe 存储的 WordPress 主机",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "kamatera",
+      "name": "Kamatera",
+      "fullName": "Kamatera",
+      "url": "https://go.cloudwm.com/visit/?bta=37441&brand=kamatera",
+      "categories": [
+        "ecommerce"
+      ],
+      "tagline": "全球 20+ 机房，配置自由组合",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "evoxt",
+      "name": "Evoxt",
+      "fullName": "Evoxt",
+      "url": "https://console.evoxt.com/aff.php?aff=4677",
+      "categories": [
+        "ecommerce"
+      ],
+      "tagline": "多地区节点，价格友好",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "megalayer",
+      "name": "Megalayer",
+      "fullName": "Megalayer",
+      "url": "https://vpszhijia.com/recommends/megalayer",
+      "categories": [
+        "ecommerce",
+        "foreign-trade"
+      ],
+      "tagline": "港/美/菲机房，独立站常用",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "interserver",
+      "name": "InterServer",
+      "fullName": "InterServer",
+      "url": "https://www.interserver.net/r/1057950",
+      "categories": [
+        "foreign-trade"
+      ],
+      "tagline": "美国老牌，独服价格稳定不涨价",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "raksmart",
+      "name": "RAKsmart",
+      "fullName": "RAKsmart",
+      "url": "https://billing.raksmart.com/whmcs/aff.php?aff=9493&aff_rtype=affiliateonetime",
+      "categories": [
+        "foreign-trade",
+        "bandwidth"
+      ],
+      "tagline": "美国独服与大带宽机型丰富",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "dogyun",
+      "name": "DogYun",
+      "fullName": "DogYun（狗云）",
+      "url": "https://www.dogyun.com/?ref=rank01",
+      "categories": [
+        "foreign-trade"
+      ],
+      "tagline": "弹性云与独服，中文运维",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "neburst",
+      "name": "Neburst",
+      "fullName": "Neburst Networks（奶爸）",
+      "url": "https://neburst.com/auth/sign-up/?aff=jvpy4",
+      "categories": [
+        "foreign-trade"
+      ],
+      "tagline": "物理机与大带宽方案",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    },
+    {
+      "logo": null,
+      "logoAlt": null,
+      "tables": [],
+      "id": "justmysocks",
+      "name": "Just My Socks",
+      "fullName": "Just My Socks",
+      "url": "https://justmysocks.net/members/aff.php?aff=34609",
+      "categories": [
+        "airport"
+      ],
+      "tagline": "搬瓦工官方机场，免运维、IP 被墙自动换",
+      "priceFrom": null,
+      "strengths": [],
+      "sidebar": false
+    }
+  ],
+  "sidebarOrder": [
+    "bandwagon",
+    "dmit",
+    "lisahost",
+    "bytevirt",
+    "666clouds",
+    "racknerd",
+    "hostdare"
+  ],
+  "homeGroups": [
+    {
+      "id": "premium",
+      "name": "预算充足 · 只要线路最好",
+      "intro": "这一档的共同点是贵，但晚高峰不掉链子。如果你受不了卡顿、又不想反复折腾换机器，直接从这里选。",
+      "items": [
+        {
+          "id": "bandwagon",
+          "why": "优质 CN2 GIA，老牌稳定，社区资料最多，出问题好查"
+        },
+        {
+          "id": "dmit",
+          "why": "高质量线路 + DDoS 防护，美/港/日多地可选，性能更强"
+        }
+      ]
+    },
+    {
+      "id": "flexible",
+      "name": "按需选线路 · 高性价比平替",
+      "intro": "CN2 GIA 确实贵。这两家的做法是把优质线路和普通线路都摆出来，让你按预算挑，是搬瓦工和 DMIT 最常见的平替。",
+      "items": [
+        {
+          "id": "bytevirt",
+          "why": "CN2 GIA 偏贵但也有普通线路和 AS9929，档位多，可按需求组合"
+        },
+        {
+          "id": "hostdare",
+          "why": "CN2 GIA / AS9929 的平替，$7.99/季起，比搬瓦工、DMIT 便宜一截"
+        }
+      ]
+    },
+    {
+      "id": "purpose",
+      "name": "有明确用途 · 专项优化",
+      "intro": "如果你的需求很具体——要大带宽、要解锁流媒体、要做 TikTok、要干净的原生 IP——通用机器不如专门优化过的划算。这一档买的不是便宜，是某项具体能力。",
+      "items": [
+        {
+          "id": "akile",
+          "why": "大带宽 VPS，1Gbps + 按流量计费，看 4K、跑下载都够"
+        },
+        {
+          "id": "lisahost",
+          "why": "支持全流媒体解锁，Netflix / Disney+ / YouTube 原生 IP"
+        },
+        {
+          "id": "wepc",
+          "why": "TikTok 的优化线路与原生 IP，短视频运营省心"
+        },
+        {
+          "id": "666clouds",
+          "why": "七地区原生 IP / 双 ISP，线路细分到 AS 号，注册海外账号和解锁不容易被拦"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "name": "预算优先 · 便宜低价搭梯子建站",
+      "intro": "预算有限，或者只是想多备几个备用节点。这一档线路普通、晚高峰会掉速，但胜在便宜到可以随手多开几台。",
+      "items": [
+        {
+          "id": "racknerd",
+          "why": "年付约 $13.76 起，促销价永久锁定不涨价，多备节点的首选"
+        },
+        {
+          "id": "vultr",
+          "why": "按小时计费，全球 30+ 机房，测线路和临时用途最灵活"
+        }
+      ]
+    }
+  ]
+}

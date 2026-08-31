@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# 主要搜索引擎
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+Sitemap: https://vpschoice.github.io/sitemap.xml

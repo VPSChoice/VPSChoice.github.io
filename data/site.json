@@ -1,0 +1,256 @@
+{
+  "site": {
+    "name": "VPSChoice",
+    "shortName": "VPSChoice",
+    "url": "https://vpschoice.github.io/",
+    "tagline": "VPS 选购指南",
+    "lang": "zh-CN",
+    "ogImage": "static/ivps.png",
+    "themeColor": "#1a2980",
+    "footer": [
+      "© 2026 VPSChoice 专业VPS推荐指南 | 价格可能变动，请以官网为准",
+      "免责声明：本站信息仅供参考，不构成购买建议。页面内商家链接为推广链接，不影响评测结论与售价。使用任何 VPS 服务前请自行评估风险并遵守当地法律法规。"
+    ]
+  },
+  "_comment_pages": "draft:true 的页面不会被构建，也不会出现在导航里。写好 content/<slug>.html 后把 draft 改成 false 即可上线。",
+  "pages": [
+    {
+      "slug": "index",
+      "out": "index.html",
+      "url": "/",
+      "nav": "梯子VPS",
+      "category": "ladder",
+      "draft": false,
+      "title": "2026梯子VPS推荐：便宜好用的科学上网VPS（美国/香港/CN2 GIA/大带宽）",
+      "description": "实测对比 10 家适合搭梯子、科学上网的 VPS：搬瓦工、DMIT、ByteVirt、HostDare、AkileCloud、丽萨主机、WePC、666Clouds、RackNerd、Vultr。按预算与用途分四档推荐，含 CN2 GIA / AS9929 / CMIN2 线路对比、大带宽与按流量计费机型，附避坑指南与 30+ 常见问题解答。",
+      "keywords": "梯子vps推荐,搭梯子vps推荐,科学上网vps,便宜梯子vps,vps推荐,便宜vps,大带宽vps,美国vps,香港vps,CN2 GIA vps推荐,AS9929 vps,CMIN2 vps,按流量计费vps,不被墙的vps,BT下载vps,vps购买,ByteVirt,RackNerd,666clouds,住宅IP vps",
+      "h1": "2026年梯子VPS推荐：10家便宜好用的科学上网VPS实测对比",
+      "subtitle": "搭梯子 VPS 到底怎么选？CN2 GIA、AS9929、CMIN2、AS4837 线路对比，从年付十几美元的低价机到 1Gbps 大带宽与按流量计费机型，按预算和用途分四档整理，同时兼顾免备案建站与 BT/PT 下载。",
+      "breadcrumb": [],
+      "related": [
+        "cheap-vps",
+        "high-bandwidth-vps",
+        "guide/setup-proxy"
+      ]
+    },
+    {
+      "slug": "cheap-vps",
+      "out": "cheap-vps/index.html",
+      "url": "/cheap-vps/",
+      "nav": "便宜VPS",
+      "category": "cheap",
+      "draft": false,
+      "title": "便宜VPS推荐2026：¥20起的低价海外VPS怎么挑不踩坑",
+      "description": "按价格档位横向对比便宜 VPS，讲清低价套餐的真实代价：超售、线路、IP 质量与跑路风险，并给出年付月付折算与安全档位建议。",
+      "keywords": "便宜vps,哪家vps便宜,便宜国外vps,便宜又好用的vps,高性能便宜vps,便宜廉价vps,低价vps推荐",
+      "h1": "便宜VPS推荐：¥20 起的低价海外VPS怎么挑才不踩坑",
+      "subtitle": "预算有限也能买到能用的机器，关键是知道便宜的代价在哪。",
+      "breadcrumb": [
+        {
+          "name": "便宜VPS推荐"
+        }
+      ],
+      "related": [
+        "index",
+        "high-bandwidth-vps",
+        "us-vps"
+      ]
+    },
+    {
+      "slug": "high-bandwidth-vps",
+      "out": "high-bandwidth-vps/index.html",
+      "url": "/high-bandwidth-vps/",
+      "nav": "大带宽VPS",
+      "category": "bandwidth",
+      "draft": false,
+      "title": "大带宽VPS推荐2026：1Gbps/万兆与按流量计费怎么选",
+      "description": "讲清带宽与流量的区别、独享带宽与共享峰值的话术识别、按流量计费的成本测算，并推荐真正跑得满的大带宽机型。",
+      "keywords": "大带宽vps,高带宽vps,vps服务器1000m,按流量计费vps,万兆vps,大带宽便宜vps",
+      "h1": "大带宽VPS推荐：1Gbps、万兆与按流量计费到底怎么选",
+      "subtitle": "标称 1Gbps 不等于能跑满 1Gbps，先看懂计费方式再下单。",
+      "breadcrumb": [
+        {
+          "name": "大带宽VPS推荐"
+        }
+      ],
+      "related": [
+        "index",
+        "cheap-vps",
+        "us-vps"
+      ]
+    },
+    {
+      "slug": "us-vps",
+      "out": "us-vps/index.html",
+      "url": "/us-vps/",
+      "nav": "美国VPS",
+      "category": "ladder",
+      "draft": true,
+      "title": "美国VPS推荐2026：美西/美中/美东机房与CN2线路怎么选",
+      "description": "对比美国各区域机房延迟、CN2 GIA/AS9929/CMIN2 在美落地情况，以及住宅 IP 与数据中心 IP 的差别。",
+      "keywords": "美国vps,美国vps cn2,美国住宅vps,美国服务器推荐,洛杉矶vps",
+      "h1": "美国VPS推荐：机房位置与回程线路怎么选",
+      "subtitle": "同样是美国机房，选错区域和线路，延迟能差一倍。",
+      "breadcrumb": [
+        {
+          "name": "美国VPS推荐"
+        }
+      ],
+      "related": [
+        "index",
+        "high-bandwidth-vps",
+        "cheap-vps"
+      ]
+    },
+    {
+      "slug": "wordpress-vps",
+      "out": "wordpress-vps/index.html",
+      "url": "/wordpress-vps/",
+      "nav": "建站VPS",
+      "category": "wordpress",
+      "draft": true,
+      "title": "WordPress建站VPS与主机推荐2026：配置怎么选、要不要面板",
+      "description": "按日访问量给出 WordPress 配置对照表，对比托管主机与自建 VPS、宝塔/1Panel 面板选择、备份与 SSL 方案。",
+      "keywords": "建站vps,wordpress vps,wordpress主机推荐,适合建站的vps,免备案建站,个人博客vps",
+      "h1": "WordPress 建站主机与 VPS 推荐：配置怎么选，要不要用面板",
+      "subtitle": "日 IP 500 和日 IP 5 万，需要的机器完全不是一回事。",
+      "breadcrumb": [
+        {
+          "name": "建站VPS推荐"
+        }
+      ],
+      "related": [
+        "cheap-vps",
+        "foreign-trade-vps",
+        "index"
+      ]
+    },
+    {
+      "slug": "ecommerce-vps",
+      "out": "ecommerce-vps/index.html",
+      "url": "/ecommerce-vps/",
+      "nav": "跨境电商VPS",
+      "category": "ecommerce",
+      "draft": true,
+      "title": "跨境电商VPS推荐2026：多账号防关联与住宅IP怎么选",
+      "description": "讲清平台的账号关联机制，对比住宅 IP、原生 IP 与数据中心 IP，给出一店一 IP 的落地方案与 IP 纯净度自查方法。",
+      "keywords": "跨境电商vps,亚马逊防关联vps,多账号vps,住宅ip vps,tiktok vps,独立站服务器",
+      "h1": "跨境电商VPS推荐：多账号运营怎么做到不被关联",
+      "subtitle": "封店往往不是因为 IP 是哪国的，而是因为几个店共用了同一个指纹。",
+      "breadcrumb": [
+        {
+          "name": "跨境电商VPS推荐"
+        }
+      ],
+      "related": [
+        "foreign-trade-vps",
+        "us-vps",
+        "index"
+      ]
+    },
+    {
+      "slug": "foreign-trade-vps",
+      "out": "foreign-trade-vps/index.html",
+      "url": "/foreign-trade-vps/",
+      "nav": "外贸VPS",
+      "category": "foreign-trade",
+      "draft": true,
+      "title": "外贸VPS与独立站服务器推荐2026：欧美访问速度与邮件送达",
+      "description": "面向外贸独立站：全球访问速度对比、服务器位置与收录的关系、SPF/DKIM/DMARC 与企业邮箱送达率、CDN 搭配方案。",
+      "keywords": "外贸vps,外贸建站服务器,独立站服务器,外贸网站服务器推荐,外贸独立站主机",
+      "h1": "外贸VPS与独立站服务器推荐：让欧美客户打得开、邮件发得到",
+      "subtitle": "服务器放错地方，广告费烧了客户还是打不开你的站。",
+      "breadcrumb": [
+        {
+          "name": "外贸VPS推荐"
+        }
+      ],
+      "related": [
+        "ecommerce-vps",
+        "wordpress-vps",
+        "us-vps"
+      ]
+    },
+    {
+      "slug": "guide/setup-proxy",
+      "out": "guide/setup-proxy/index.html",
+      "url": "/guide/setup-proxy/",
+      "nav": null,
+      "category": "ladder",
+      "draft": true,
+      "title": "VPS搭建科学上网教程2026：协议选型与一键部署",
+      "description": "从买完 VPS 到能用的完整流程：协议选型、部署方式、443+TLS 伪装与 BBR 加速。",
+      "keywords": "vps搭建科学上网,vps搭梯子教程,xray reality,hysteria2,搭建代理教程",
+      "h1": "VPS 搭建科学上网完整教程：协议怎么选、怎么部署",
+      "subtitle": "买完机器之后的下一步，含协议选型与抗封锁配置建议。",
+      "breadcrumb": [
+        {
+          "name": "教程",
+          "url": "/guide/"
+        },
+        {
+          "name": "搭建科学上网"
+        }
+      ],
+      "related": [
+        "index",
+        "guide/speed-test",
+        "guide/ip-blocked"
+      ]
+    },
+    {
+      "slug": "guide/speed-test",
+      "out": "guide/speed-test/index.html",
+      "url": "/guide/speed-test/",
+      "nav": null,
+      "category": "ladder",
+      "draft": true,
+      "title": "VPS测速与三网回程线路测试方法2026",
+      "description": "买前怎么看线路、买后怎么测速，含 bench.sh、回程路由测试与晚高峰测试清单。",
+      "keywords": "vps测速,如何测试vps网络速度,三网回程测试,bench.sh,traceroute线路",
+      "h1": "VPS 测速与线路测试：退款窗口内必须做完的检查",
+      "subtitle": "花十分钟测清楚，比事后申请退款省事得多。",
+      "breadcrumb": [
+        {
+          "name": "教程",
+          "url": "/guide/"
+        },
+        {
+          "name": "测速与线路测试"
+        }
+      ],
+      "related": [
+        "index",
+        "guide/ip-blocked",
+        "high-bandwidth-vps"
+      ]
+    },
+    {
+      "slug": "guide/ip-blocked",
+      "out": "guide/ip-blocked/index.html",
+      "url": "/guide/ip-blocked/",
+      "nav": null,
+      "category": "ladder",
+      "draft": true,
+      "title": "VPS的IP被墙了怎么办2026：判断方法与各商家换IP政策",
+      "description": "区分被墙、被封与故障，汇总各商家换 IP 政策与价格，并给出降低被墙概率的实用做法。",
+      "keywords": "vps ip被墙,ip被封怎么办,不被墙的vps,换ip政策,便宜海外云不被墙",
+      "h1": "VPS 的 IP 被墙了怎么办：判断、换 IP 与预防",
+      "subtitle": "没有永不被墙的机器，但有能快速恢复的方案。",
+      "breadcrumb": [
+        {
+          "name": "教程",
+          "url": "/guide/"
+        },
+        {
+          "name": "IP被墙怎么办"
+        }
+      ],
+      "related": [
+        "index",
+        "guide/speed-test",
+        "cheap-vps"
+      ]
+    }
+  ]
+}

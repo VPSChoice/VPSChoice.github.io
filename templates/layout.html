@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <link rel="canonical" href="{{canonical}}">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="author" content="{{siteName}}">
+    <meta name="theme-color" content="{{themeColor}}">
+
+    <!-- Open Graph / 社交分享 -->
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="{{siteName}}">
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:description" content="{{description}}">
+    <meta property="og:url" content="{{canonical}}">
+    <meta property="og:image" content="{{ogImage}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:description" content="{{description}}">
+    <meta name="twitter:image" content="{{ogImage}}">
+
+    <link rel="shortcut icon" href="{{root}}static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{root}}static/css/main.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <div class="site-bar">
+        <div class="container site-bar-inner">
+            <a class="site-logo" href="{{root}}">{{siteName}}<span>{{tagline}}</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+                aria-label="展开导航">菜单</button>
+            <nav class="site-nav" id="site-nav" aria-label="主导航">
+                {{nav}}
+            </nav>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>{{h1}}</h1>
+            <p>{{subtitle}}</p>
+        </div>
+    </header>
+
+    <div class="container layout">
+        <main class="main-col" id="main">
+            {{breadcrumb}}
+            {{content}}
+            {{related}}
+        </main>
+
+        <aside class="sidebar" aria-label="侧边栏">
+            {{toc}}
+            {{providerBox}}
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container footer">
+            {{footer}}
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="返回顶部" hidden>
+        <span aria-hidden="true">↑</span>
+    </button>
+
+    <script>
+        // FAQ 展开/收起：默认全部展开（利于搜索引擎抓取），点击或回车可折叠
+        document.querySelectorAll('.faq-question').forEach(function (question) {
+            question.setAttribute('role', 'button');
+            question.setAttribute('tabindex', '0');
+            question.setAttribute('aria-expanded', 'true');
+
+            var toggle = function () {
+                var answer = question.nextElementSibling;
+                if (!answer) return;
+                var collapsed = answer.style.display === 'none';
+                answer.style.display = collapsed ? 'block' : 'none';
+                question.setAttribute('aria-expanded', String(collapsed));
+            };
+
+            question.addEventListener('click', toggle);
+            question.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+            });
+        });
+
+        // 移动端导航展开
+        (function () {
+            var btn = document.querySelector('.nav-toggle');
+            var nav = document.getElementById('site-nav');
+            if (!btn || !nav) return;
+            btn.addEventListener('click', function () {
+                var open = nav.classList.toggle('is-open');
+                btn.setAttribute('aria-expanded', String(open));
+            });
+        })();
+
+        // 移动端默认收起目录，避免把正文顶下去
+        (function () {
+            var toc = document.getElementById('toc');
+            if (toc && window.matchMedia('(max-width: 1023px)').matches) toc.removeAttribute('open');
+        })();
+
+        // 返回顶部
+        (function () {
+            var btn = document.querySelector('.to-top');
+            if (!btn) return;
+            var last = 0;
+            var sync = function () {
+                var now = Date.now();
+                if (now - last < 150) return;
+                last = now;
+                var show = (window.pageYOffset || document.documentElement.scrollTop) > 600;
+                if (show === !btn.hidden) return;
+                btn.hidden = !show;
+            };
+            window.addEventListener('scroll', sync, { passive: true });
+            btn.addEventListener('click', function () {
+                // 尊重系统的「减少动态效果」设置
+                var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                var top = function () { return window.pageYOffset || document.documentElement.scrollTop || 0; };
+                var before = top();
+                try { window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); }
+                catch (e) { window.scrollTo(0, 0); }
+                // 兜底：部分内嵌浏览器不支持平滑滚动，300ms 后没动就直接跳
+                setTimeout(function () {
+                    if (top() > 0 && top() >= before) { window.scrollTo(0, 0); }
+                }, 300);
+            });
+            sync();
+        })();
+
+        // 侧边栏目录：滚动高亮当前章节（取最后一个已滚过阈值线的标题）
+        (function () {
+            var links = [].slice.call(document.querySelectorAll('.toc-list a'));
+            if (!links.length) return;
+            var entries = [];
+            links.forEach(function (a) {
+                var el = document.getElementById(a.getAttribute('href').slice(1));
+                if (el) entries.push({ link: a, el: el });
+            });
+            if (!entries.length) return;
+
+            var current = null;
+            var update = function () {
+                var line = 120;   // 视口顶部往下 120px 作为判定线
+                var found = entries[0];
+                for (var i = 0; i < entries.length; i++) {
+                    if (entries[i].el.getBoundingClientRect().top <= line) found = entries[i];
+                    else break;
+                }
+                if (found === current) return;
+                if (current) current.link.classList.remove('is-active');
+                found.link.classList.add('is-active');
+                current = found;
+                // 目录很长时，让高亮项保持在侧边栏可视范围内
+                var box = document.querySelector('.sidebar');
+                if (box && box.scrollHeight > box.clientHeight) {
+                    var lr = found.link.getBoundingClientRect(), br = box.getBoundingClientRect();
+                    if (lr.top < br.top || lr.bottom > br.bottom) {
+                        box.scrollTop += lr.top - br.top - box.clientHeight / 3;
+                    }
+                }
+            };
+
+            // 时间戳节流：同步执行，不依赖 requestAnimationFrame
+            // （页面不可见时 rAF 会被冻结，改用节流可避免这一失效场景）
+            var last = 0;
+            var onScroll = function () {
+                var now = Date.now();
+                if (now - last < 80) return;
+                last = now;
+                update();
+            };
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            window.addEventListener('hashchange', onScroll);
+
+            // 双保险：IntersectionObserver 独立于 scroll 事件触发，
+            // 覆盖锚点跳转、程序化滚动等不派发 scroll 的场景
+            if ('IntersectionObserver' in window) {
+                var io = new IntersectionObserver(onScroll, { threshold: [0, 1] });
+                entries.forEach(function (e) { io.observe(e.el); });
+            }
+            update();
+        })();
+    </script>
+    {{jsonld}}
+</body>
+
+</html>
