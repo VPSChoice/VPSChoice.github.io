@@ -56,7 +56,7 @@
               },
               {
                 "cls": "rating",
-                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=44",
+                "link": "https://bwh81.net/aff.php?aff=83205&pid=44",
                 "text": "立即购买"
               }
             ],
@@ -71,7 +71,7 @@
               },
               {
                 "cls": "rating",
-                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=45",
+                "link": "https://bwh81.net/aff.php?aff=83205&pid=45",
                 "text": "立即购买"
               }
             ],
@@ -86,7 +86,7 @@
               },
               {
                 "cls": "rating",
-                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=46",
+                "link": "https://bwh81.net/aff.php?aff=83205&pid=46",
                 "text": "立即购买"
               }
             ],
@@ -101,7 +101,7 @@
               },
               {
                 "cls": "rating",
-                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=47",
+                "link": "https://bwh81.net/aff.php?aff=83205&pid=47",
                 "text": "立即购买"
               }
             ],
@@ -116,7 +116,7 @@
               },
               {
                 "cls": "rating",
-                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=48",
+                "link": "https://bwh81.net/aff.php?aff=83205&pid=48",
                 "text": "立即购买"
               }
             ],
@@ -131,7 +131,7 @@
               },
               {
                 "cls": "rating",
-                "link": "https://bandwagonhost.com/aff.php?aff=83205&pid=49",
+                "link": "https://bwh81.net/aff.php?aff=83205&pid=49",
                 "text": "立即购买"
               }
             ]
@@ -141,7 +141,7 @@
       "id": "bandwagon",
       "name": "搬瓦工",
       "fullName": "搬瓦工（BandwagonHost）",
-      "url": "https://bandwagonhost.com/aff.php?aff=83205",
+      "url": "https://bwh81.net/aff.php?aff=83205",
       "categories": [
         "ladder",
         "ecommerce"
@@ -1440,132 +1440,101 @@
       "logoAlt": null,
       "tables": [
         {
-          "label": "标准 KVM 系列（洛杉矶 / 圣何塞 / 芝加哥 / 纽约 / 达拉斯 / 西雅图等）",
+          "label": "Special Promos 年付系列（洛杉矶 / 圣何塞 / 芝加哥 / 纽约 / 达拉斯 / 西雅图等多机房可选）",
           "columns": [
-            "配置",
-            "硬盘",
+            "套餐",
+            "vCPU",
+            "内存",
+            "存储",
             "月流量",
-            "带宽",
-            "参考价（年付）",
+            "端口",
+            "年付价格",
             "购买"
           ],
           "rows": [
             [
-              "1 核 / 1GB",
-              "20GB SSD",
-              "3TB",
+              "1 GB KVM VPS",
+              "1 核",
+              "1GB",
+              "20GB SSD RAID-10",
+              "3000GB",
               "1Gbps",
               {
                 "cls": "price-tag",
-                "text": "约 $13.76/年"
+                "text": "$21.99/年"
               },
               {
                 "cls": "rating",
-                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "link": "https://my.racknerd.com/aff.php?aff=15319&pid=952",
                 "text": "立即购买"
               }
             ],
             [
-              "2 核 / 2GB",
-              "35GB SSD",
-              "5TB",
+              "2 GB KVM VPS",
+              "2 核",
+              "2GB",
+              "35GB SSD RAID-10",
+              "5000GB",
               "1Gbps",
               {
                 "cls": "price-tag",
-                "text": "约 $17.66/年"
+                "text": "$35.99/年"
               },
               {
                 "cls": "rating",
-                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "link": "https://my.racknerd.com/aff.php?aff=15319&pid=953",
                 "text": "立即购买"
               }
             ],
             [
-              "3 核 / 3GB",
-              "55GB SSD",
-              "6TB",
+              "4 GB KVM VPS",
+              "3 核",
+              "4GB",
+              "60GB SSD RAID-10",
+              "7000GB",
               "1Gbps",
               {
                 "cls": "price-tag",
-                "text": "约 $26.99/年"
+                "text": "$59.99/年"
               },
               {
                 "cls": "rating",
-                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "link": "https://my.racknerd.com/aff.php?aff=15319&pid=954",
                 "text": "立即购买"
               }
             ],
             [
-              "4 核 / 4GB",
-              "80GB SSD",
-              "8TB",
+              "6 GB KVM VPS",
+              "6 核",
+              "6GB",
+              "100GB SSD RAID-10",
+              "12,000GB",
               "1Gbps",
               {
                 "cls": "price-tag",
-                "text": "约 $39.99/年"
+                "text": "$89.99/年"
               },
               {
                 "cls": "rating",
-                "link": "https://my.racknerd.com/aff.php?aff=15319",
-                "text": "立即购买"
-              }
-            ]
-          ]
-        },
-        {
-          "label": "AMD Ryzen 高性能系列（阿什本 / 圣何塞）",
-          "columns": [
-            "配置",
-            "硬盘",
-            "月流量",
-            "带宽",
-            "参考价（年付）",
-            "购买"
-          ],
-          "rows": [
-            [
-              "1 核 / 1.5GB",
-              "30GB NVMe",
-              "2.5TB",
-              "1Gbps",
-              {
-                "cls": "price-tag",
-                "text": "约 $19.00/年"
-              },
-              {
-                "cls": "rating",
-                "link": "https://my.racknerd.com/aff.php?aff=15319",
+                "link": "https://my.racknerd.com/aff.php?aff=15319&pid=955",
                 "text": "立即购买"
               }
             ],
             [
-              "2 核 / 2GB",
-              "40GB NVMe",
-              "4TB",
+              "<strong>8 GB KVM VPS</strong><span class=\"recommended-badge\">流量最多</span>",
+              "7 核",
+              "8GB",
+              "150GB SSD RAID-10",
+              "20,000GB",
               "1Gbps",
               {
                 "cls": "price-tag",
-                "text": "约 $29.00/年"
+                "text": "$119.99/年"
               },
               {
                 "cls": "rating",
                 "link": "https://my.racknerd.com/aff.php?aff=15319",
-                "text": "立即购买"
-              }
-            ],
-            [
-              "2 核 / 4GB",
-              "65GB NVMe",
-              "6TB",
-              "1Gbps",
-              {
-                "cls": "price-tag",
-                "text": "约 $55.88/年"
-              },
-              {
-                "cls": "rating",
-                "link": "https://my.racknerd.com/aff.php?aff=15319",
-                "text": "立即购买"
+                "text": "前往选购"
               }
             ]
           ]
@@ -1579,12 +1548,12 @@
         "ladder",
         "cheap"
       ],
-      "tagline": "年付十几美元，促销价永久锁定不涨价",
-      "priceFrom": "约 $13.76/年起",
+      "tagline": "年付特价，1Gbps 端口 + 超大流量",
+      "priceFrom": "$21.99/年起",
       "strengths": [
-        "年付极便宜",
-        "续费不涨价",
-        "1Gbps 大流量"
+        "年付价格低",
+        "1Gbps 端口",
+        "流量最多 20TB/月"
       ],
       "sidebar": true
     },
@@ -2127,7 +2096,7 @@
       "items": [
         {
           "id": "racknerd",
-          "why": "年付约 $13.76 起，促销价永久锁定不涨价，多备节点的首选"
+          "why": "年付 $21.99 起（约合每月 13 元），1Gbps 端口 + 3TB 流量，促销价永久锁定不涨价"
         },
         {
           "id": "vultr",

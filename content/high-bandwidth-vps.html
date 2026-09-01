@@ -2,12 +2,12 @@
     <div class="article-intro">
         <strong>标称 1Gbps 的机器，为什么实际只跑得到 30Mbps？</strong>
         因为「带宽」这个词在 VPS 商家手里至少有四种含义：独享带宽、共享带宽、峰值带宽、上传限速。
-        这篇讲清楚它们的区别，给出<strong>各家每 TB 流量的真实单价对比（差距高达 200 倍）</strong>，
-        以及一个很多人没意识到的事实：<strong>线路最好的机器，带宽往往最小。</strong>
+        这篇讲清楚它们的区别，给出<strong>各家每 TB 流量的真实单价对比（差距超过 150 倍）</strong>，
+        以及一个很多人没意识到的事实：<strong>价格和线路都预测不了带宽——真正决定它的是住宅 IP 还是数据中心 IP。</strong>
     </div>
     <p>
         大带宽是个容易买错的需求。有人花 ¥188/月 买了「香港三网优化」，结果发现带宽只有 50Mbps；
-        有人年付 $39.99 买了标着 1Gbps 的机器，实测确实能跑满，但晚上八点连网页都打不开。
+        有人年付几十美元买了标着 1Gbps 的机器，实测确实能跑满，但晚上八点连网页都打不开。
         这两种情况都不是商家骗人——只是<strong>带宽、流量、线路质量是三个独立的维度</strong>，
         买之前没分清楚，就一定会有一个维度让你失望。
     </p>
@@ -24,7 +24,7 @@
         <div class="pick">
             <span class="pick-label">流量单价最低</span>
             <p class="pick-name">{{a:racknerd}}</p>
-            <p class="pick-why">1Gbps + 8TB/月，年付 $39.99，折合每 TB 约 3 元。要的是「量大管饱」就选它。</p>
+            <p class="pick-why"><strong>20,000GB/月 + 1Gbps 端口</strong>，年付 $119.99，折合每 TB 约 3.6 元。线路普通，但论「量大管饱」没有对手。</p>
         </div>
         <div class="pick">
             <span class="pick-label">大带宽 + 优质线路</span>
@@ -136,9 +136,10 @@
 </section>
 
 <section>
-    <h2 id="tradeoff">为什么优质线路的机器，带宽反而小</h2>
+    <h2 id="tradeoff">为什么贵的机器带宽反而更小</h2>
     <p>
-        这是买大带宽时最反直觉、也最需要理解的一点。看一组来自本站已收录套餐的真实对比：
+        这是买大带宽时最反直觉的一点：<strong>价格高低完全预测不了带宽大小</strong>。
+        看一组来自本站已收录套餐的真实对比（按带宽从小到大排）：
     </p>
     <div class="vps-table">
         <table>
@@ -153,36 +154,50 @@
             </thead>
             <tbody>
                 <tr>
+                    <td>{{a:hostdare}} CKVM1</td>
+                    <td>优质（CN2 数据中心）</td>
+                    <td class="price-tag"><strong>50 Mbps</strong>（上传）</td>
+                    <td>600GB</td>
+                    <td>$49.99/年</td>
+                </tr>
+                <tr>
                     <td>{{a:lisahost}} 香港三网 CMI ISP</td>
-                    <td><span class="good">顶级</span>（三网 CMI 住宅）</td>
+                    <td><span class="good">顶级</span>线路 + 住宅 IP</td>
                     <td class="price-tag"><strong>50 Mbps</strong></td>
                     <td>5000GB</td>
                     <td>¥188/月</td>
                 </tr>
                 <tr>
                     <td>{{a:lisahost}} 美国 9929 住宅 IP</td>
-                    <td><span class="good">顶级</span>（AS9929 住宅）</td>
+                    <td><span class="good">顶级</span>线路 + 住宅 IP</td>
                     <td class="price-tag"><strong>60 Mbps</strong></td>
                     <td>2000GB</td>
                     <td>¥88/月</td>
                 </tr>
                 <tr>
-                    <td>{{a:hostdare}} CKVM1</td>
-                    <td>优质（CN2）</td>
-                    <td class="price-tag">50 Mbps</td>
-                    <td>600GB</td>
+                    <td>{{a:lisahost}} 美国 4837 进阶版</td>
+                    <td>中等线路 + <span class="good">住宅 IP</span></td>
+                    <td class="price-tag"><strong>500 Mbps</strong></td>
+                    <td>8000GB</td>
+                    <td>¥100/月</td>
+                </tr>
+                <tr>
+                    <td>{{a:racknerd}} 1GB 档</td>
+                    <td>普通国际线路 + 数据中心 IP</td>
+                    <td class="price-tag"><strong>1 Gbps</strong></td>
+                    <td>3000GB</td>
+                    <td>$21.99/年</td>
+                </tr>
+                <tr>
+                    <td>{{a:bandwagon}} 入门档</td>
+                    <td><span class="good">顶级</span>线路 + 数据中心 IP</td>
+                    <td class="price-tag"><strong>1 Gbps</strong></td>
+                    <td>1000GB</td>
                     <td>$49.99/年</td>
                 </tr>
                 <tr>
-                    <td>{{a:racknerd}} 4核4G</td>
-                    <td>普通国际线路</td>
-                    <td class="price-tag"><strong>1 Gbps</strong></td>
-                    <td>8000GB</td>
-                    <td>$39.99/年</td>
-                </tr>
-                <tr>
                     <td>{{a:dmit}} 洛杉矶 STARTER</td>
-                    <td><span class="good">顶级</span>（CN2 GIA）</td>
+                    <td><span class="good">顶级</span>线路 + 数据中心 IP</td>
                     <td class="price-tag"><strong>10 Gbps</strong></td>
                     <td>3000GB</td>
                     <td>$29.90/月</td>
@@ -191,13 +206,19 @@
         </table>
     </div>
     <p>
-        看出规律了吗：<strong>丽萨主机的顶级线路只给 50–60Mbps，RackNerd 的普通线路却给 1Gbps，而且便宜得多。</strong>
-        原因很简单——优质线路的每 GB 传输成本极高，商家只能靠限制带宽来控制成本。
-        普通国际线路带宽便宜，随便给。
+        看出规律了吗——<strong>价格完全不能预测带宽</strong>。最贵的那台（丽萨香港 CMI，¥188/月）带宽只有
+        <strong>50Mbps</strong>，而<strong>最便宜</strong>的那台（RackNerd，$21.99/年，折合约 ¥13/月）却给
+        <strong>1Gbps</strong>，是它的 20 倍，价格还只有它的十四分之一。
     </p>
     <p>
-        DMIT 那行是唯一的例外：<strong>10Gbps + CN2 GIA</strong>，两个都要。代价是 $29.90/月，
-        比 RackNerd 同类配置贵将近十倍。这就是「既要线路好又要带宽大」的真实价格。
+        更能说明问题的是<strong>同一家商家内部的对比</strong>：丽萨主机的美国 9929 档 ¥88/月 只给 60Mbps，
+        美国 4837 档 ¥100/月 却给 500Mbps——只贵 12 块钱，带宽差 8 倍。
+        差别不在「贵不贵」，而在<strong>用的是住宅 IP 还是数据中心 IP</strong>：
+        住宅 IP 的带宽本身就稀缺昂贵，所以卖得贵、给得少。
+    </p>
+    <p>
+        DMIT 那行则是另一个极端：<strong>10Gbps + CN2 GIA</strong>，线路和带宽两个都要，代价是 $29.90/月。
+        这就是「既要线路好又要带宽大」的真实价格。
     </p>
     <div class="note">
         <p>
@@ -231,17 +252,17 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>{{a:racknerd}} 1核1G</td>
-                    <td>3TB</td>
-                    <td>约 ¥8</td>
-                    <td class="price-tag"><strong>约 ¥2.8</strong></td>
+                    <td>{{a:racknerd}} 8GB 档</td>
+                    <td>20TB</td>
+                    <td>约 ¥72</td>
+                    <td class="price-tag"><strong>约 ¥3.6</strong></td>
                     <td rowspan="2">大流量、不挑线路</td>
                 </tr>
                 <tr>
-                    <td>{{a:racknerd}} 4核4G</td>
-                    <td>8TB</td>
-                    <td>约 ¥24</td>
-                    <td class="price-tag"><strong>约 ¥3</strong></td>
+                    <td>{{a:racknerd}} 1GB 档</td>
+                    <td>3TB</td>
+                    <td>约 ¥13</td>
+                    <td class="price-tag"><strong>约 ¥4.4</strong></td>
                 </tr>
                 <tr>
                     <td>{{a:akile}} HKSM-Mini</td>
@@ -256,6 +277,13 @@
                     <td>¥100</td>
                     <td class="price-tag">约 ¥12.5</td>
                     <td>住宅 IP + 大流量</td>
+                </tr>
+                <tr>
+                    <td>{{a:racknerd}} 1GB 档</td>
+                    <td>普通国际线路 + 数据中心 IP</td>
+                    <td class="price-tag"><strong>1 Gbps</strong></td>
+                    <td>3000GB</td>
+                    <td>$21.99/年</td>
                 </tr>
                 <tr>
                     <td>{{a:bandwagon}} 入门档</td>
@@ -289,7 +317,7 @@
         </table>
     </div>
     <p>
-        最便宜和最贵之间差了 <strong>200 倍</strong>。这不代表 DMIT 香港贵得没道理——
+        最便宜和最贵之间差了 <strong>150 倍以上</strong>。这不代表 DMIT 香港贵得没道理——
         它卖的是延迟和稳定性，不是流量。但如果你拿它去跑 BT 下载，那就是把顶级线路当水管用，
         几天就能把 500GB 跑光。
     </p>
@@ -429,10 +457,12 @@
     </p>
 
     <h3 id="pick-racknerd">RackNerd — 流量单价最低，量大管饱</h3>
+
     <p>
         如果你要的不是峰值速度而是<strong>总量</strong>，{{a:racknerd}} 的性价比没什么对手：
-        4核4G 那档给 <strong>1Gbps + 8TB/月</strong>，年付 $39.99，
-        折算下来<strong>每 TB 流量约 3 元</strong>——比同类便宜一个数量级。
+        8GB 那档给 <strong>20,000GB/月 + 1Gbps 端口</strong>，年付 $119.99，
+        折算下来<strong>每 TB 流量约 3.6 元</strong>——比 DMIT 香港便宜 150 倍。
+        入门的 1GB 档 3000GB / $21.99 单价也只要约 ¥4.4/TB。
     </p>
     <p>
         限制还是那句：<strong>普通国际线路</strong>，晚高峰会掉速。
@@ -498,17 +528,18 @@
     </div>
 
     <div class="faq-item">
-        <div class="faq-question">为什么线路好的 VPS 带宽反而小？</div>
+        <div class="faq-question">为什么贵的 VPS 带宽反而更小？</div>
         <div class="faq-answer">
-            <p>因为优质线路的每 GB 传输成本极高，商家只能用限制带宽来控制成本。看真实数据：</p>
+            <p>准确说不是「线路好带宽就小」，而是<strong>住宅 IP 的带宽稀缺昂贵</strong>。看真实数据：</p>
             <ul>
                 <li>丽萨主机<strong>香港三网 CMI 住宅</strong>：顶级线路，但只有 <strong>50Mbps</strong>，¥188/月。</li>
                 <li>丽萨主机<strong>美国 AS9929 住宅</strong>：顶级线路，<strong>60Mbps</strong>，¥88/月。</li>
-                <li>RackNerd <strong>普通国际线路</strong>：<strong>1Gbps</strong>，年付 $39.99。</li>
+                <li>搬瓦工 <strong>CN2 GIA 数据中心 IP</strong>：<strong>1Gbps</strong>，年付 $49.99。</li>
+                <li>RackNerd <strong>普通线路数据中心 IP</strong>：<strong>1Gbps</strong>，年付 $21.99——最便宜的一台，带宽却是最贵那台的 20 倍。</li>
             </ul>
             <p>
-                唯一的例外是 DMIT 洛杉矶 STARTER：10Gbps + CN2 GIA，$29.90/月——
-                两个都要的价格，大约是只要带宽的十倍。
+                同一家商家内部对比更明显：丽萨主机美国 4837 档 ¥100/月 给 500Mbps，比 9929 档（¥88/月，60Mbps）
+                只贵 12 元，带宽却是 8 倍。而 DMIT 洛杉矶 STARTER 做到 10Gbps + CN2 GIA，代价是 $29.90/月。
             </p>
         </div>
     </div>
@@ -603,7 +634,7 @@
             <ul>
                 <li><strong>商家是否允许</strong>：很多商家在服务条款里禁止 P2P，违规直接停机。买之前必须确认。</li>
                 <li><strong>流量够不够</strong>：BT 是流量大户，建议 2TB 起步，做种则要不限流量。
-                    按每 TB 单价算，RackNerd（约 ¥3/TB）这类才划算，拿 DMIT 香港（约 ¥574/TB）跑下载是在烧钱。</li>
+                    按每 TB 单价算，RackNerd（约 ¥3.6–5/TB）这类才划算，拿 DMIT 香港（约 ¥574/TB）跑下载是在烧钱。</li>
                 <li><strong>硬盘够不够</strong>：下载要落盘，10GB 的入门套餐完全不够，做种建议 100GB 以上。</li>
             </ul>
             <p>另外美国机房容易收到 DMCA 版权投诉，欧洲机房通常宽松一些。请只用于合法资源并遵守当地法律。</p>

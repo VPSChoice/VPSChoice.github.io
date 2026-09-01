@@ -1304,3 +1304,95 @@
          transform: none;
      }
  }
+
+ /* ============================================================
+    推荐卡片：明确的可点击提示
+    原来商家名只是蓝色粗体，用户看不出是链接
+    ============================================================ */
+
+ .pick {
+     position: relative;
+     transition: border-color .18s, box-shadow .18s, transform .18s;
+ }
+
+ .pick:hover {
+     border-color: var(--primary-color);
+     box-shadow: 0 6px 20px rgba(37, 99, 235, .13);
+     transform: translateY(-2px);
+ }
+
+ /* 商家名后面加箭头，明确这是可点的 */
+ .pick-name a {
+     display: inline-flex;
+     align-items: center;
+     gap: 4px;
+     border-bottom: 2px solid rgba(37, 99, 235, .28);
+     padding-bottom: 1px;
+     transition: border-color .18s, gap .18s;
+ }
+
+ .pick-name a::after {
+     content: "›";
+     font-size: 1.15em;
+     line-height: 1;
+     font-weight: 700;
+     transform: translateY(-1px);
+     transition: transform .18s;
+ }
+
+ .pick-name a:hover {
+     border-bottom-color: var(--primary-color);
+     gap: 7px;
+ }
+
+ .pick-name a:hover::after {
+     transform: translateY(-1px) translateX(2px);
+ }
+
+ .pick:hover .pick-name a {
+     border-bottom-color: var(--primary-color);
+ }
+
+ /* 卡片底部的行动提示 */
+ .pick::after {
+     content: "点击查看套餐与价格";
+     display: block;
+     margin-top: 12px;
+     padding-top: 10px;
+     border-top: 1px dashed #e2e8f0;
+     font-size: .82rem;
+     color: #94a3b8;
+     transition: color .18s;
+ }
+
+ .pick:hover::after {
+     color: var(--primary-color);
+ }
+
+ /* 键盘可达性：聚焦时同样给出提示 */
+ .pick-name a:focus-visible {
+     outline: 2px solid var(--primary-color);
+     outline-offset: 3px;
+     border-radius: 3px;
+ }
+
+ /* 首页分组卡片里的价格标签，和商家名拉开层次 */
+ .pick-name .pick-from {
+     font-size: .82rem;
+     font-weight: 600;
+     color: #e74c3c;
+     border-bottom: 0;
+ }
+
+ @media (prefers-reduced-motion: reduce) {
+
+     .pick,
+     .pick-name a,
+     .pick-name a::after {
+         transition: none;
+     }
+
+     .pick:hover {
+         transform: none;
+     }
+ }
